@@ -1,25 +1,9 @@
 import React from "react";
 import "./Projects.css";
-import { FaReact, FaHardHat } from "react-icons/fa";
-import {
-  SiBlockchaindotcom,
-  SiHtml5,
-  SiMaterialui,
-  SiChai,
-  SiEthereum,
-  SiExpress,
-  SiSocketdotio,
-  SiTailwindcss,
-  SiReactrouter,
-  SiJavascript,
-  SiMongodb,
-  SiNodedotjs,
-  SiPhp,
-  SiMysql
-} from "react-icons/si";
-import { DiCss3 } from "react-icons/di";
-import { VscJson } from "react-icons/vsc";
-import { IoLogoJavascript } from "react-icons/io";
+import { FaPython, FaJava, FaHtml5 } from "react-icons/fa";
+import { SiRstudio, SiJupyter, SiHtml5, SiTwitter } from "react-icons/si";
+import { DiDatabase } from "react-icons/di"; 
+import { AiOutlineRobot } from "react-icons/ai"; 
 export const Projects = () => {
   return (
     <>
@@ -31,27 +15,25 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://user-images.githubusercontent.com/114709734/265724514-58f88974-d437-4b76-8232-8ce8fed63529.jpg"
-                    alt="Jobnest"
+                    src="https://raw.githubusercontent.com/BhaveshxPurohit/Analyzing-NYC-Green-Taxi-Trips/43b2b5cea9ef37fb15c2018492bb4bb76bdfb3b1/Asset.png"
+                    alt="Analyzing-NYC-Green-Taxi-Trips"
                   />
                 </div>
               </div>
               <div className="project_information">
-                <h2>JobNest</h2>
+                <h2>Analyzing NYC Green Taxi Trips</h2>
                 <p>
-                Job tracking website with advanced search and filtering, Google OAuth authentication, JWT authorization, and enhanced user engagement through animations, progress bars, and an event calendar.
+                A study on NYC Green Taxi Trip Data (Jan 2022 - Jan 2023) uses machine learning to predict fares and find profitable pickup spots, extending service beyond Manhattan and airports. This aims to optimize earnings for drivers and improve service quality for passengers, enhancing efficiency in the taxi industry.
                 </p>
                 <div>
-                  <SiMongodb />
-                  <SiExpress />
-                  <FaReact />
-                  <SiNodedotjs />
+                  <SiRstudio />
+                  <SiJupyter />
                   
                   
                 </div>
                 <div>
                   <a
-                    href="https://github.com/VatsalDoshi/JobNest"
+                    href="https://github.com/BhaveshxPurohit/Analyzing-NYC-Green-Taxi-Trips.git "
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -68,24 +50,24 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://user-images.githubusercontent.com/114709734/263542467-6449f3a4-ecd7-4ddc-99e5-332b72f757ca.png"
-                    alt="Sk-Weather-App"
-                  />
+                    src="https://raw.githubusercontent.com/BhaveshxPurohit/Analyzing-Social-Media-Sentiment/c9b5eed9b6780bbf32b2febbc70112e9f9e7d571/Asset.png"
+                    alt="Analyzing-Social-Media-Sentiment"
+                   />
                 </div>
               </div>
               <div className="project_information">
-                <h2>Weather App</h2>
+                <h2>Analyzing Social Media Sentiment</h2>
                 <p>
-                  The Weather App provides real-time weather updates based on your current location, and allows users to search for weather conditions in different cities or pinpoint locations on a map for tailored weather information.
+                This study analyzes 1.6 million tweets, employing advanced techniques like text mining, sentiment analysis, and hierarchical clustering. It aims to uncover patterns in user behavior and sentiment, offering insights applicable to various domains such as marketing and societal sentiment analysis.
                 </p>
                 <div>
-                  <DiCss3 />
-                  <SiHtml5 />
-                  <IoLogoJavascript />
+                  <SiRstudio />
+                  <SiTwitter />
+                  <SiJupyter />
                 </div>
                 <div>
                   <a
-                    href="https://github.com/VatsalDoshi/Weather-App"
+                    href="https://github.com/BhaveshxPurohit/Analyzing-Social-Media-Sentiment.git"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -101,25 +83,24 @@ export const Projects = () => {
             <div className="project">
               <div className="project_videocontainer">
                 <div>
-                  <img src="https://user-images.githubusercontent.com/114709734/265750014-ea67d95f-ab40-449c-b7f1-5b6d238d911a.png" alt="" />
+                <img src="https://raw.githubusercontent.com/BhaveshxPurohit/Exploring-Spotify-with-Natural-Language-Processing/f0bebf3cb54c409c9d4aca81b73c3b52ce4df191/Asset.png" alt="Project Visualization" />
+
                 </div>
               </div>
               <div className="project_information">
-                <h2>Mini Projects</h2>
+                <h2>Exploring Spotify with Natural Language Processing</h2>
                 <p>
-                Developed a diverse portfolio of mini-projects, including a JavaScript-based Tic-Tac-Toe game, two versions of a Reminder App (one in JavaScript, another in React.js), a CRUD API for the Reminder App tested in Postman, an Apartment Finder website, and a calculator utilizing the JavaScript Canvas API.
+                This project delves into user preferences, playlist creation, and track patterns to enrich music enjoyment. By uncovering insights, we aim to enhance the user experience and offer tailored recommendations, ultimately contributing to the dynamic landscape of digital music consumption.
                 </p>
                 <div>
-                  <SiMongodb />
-                  <SiExpress />
-                  <FaReact />
-                  <SiNodedotjs />
-                  <IoLogoJavascript />
+                  <FaPython />
+                  <SiJupyter />
+                
                   
                 </div>
                 <div>
                   <a
-                    href="https://github.com/VatsalDoshi/mini-projects-web-development"
+                    href="https://github.com/BhaveshxPurohit/Exploring-Spotify-with-Natural-Language-Processing.git"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -137,26 +118,26 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://user-images.githubusercontent.com/114709734/265758994-7bce3e5b-7d9f-4653-be2f-e6ad7293a3bb.png"
-                    alt="Banking site"
+                    src="https://raw.githubusercontent.com/BhaveshxPurohit/Triumph-of-Trinity-A-Three-Card-Game-Project/0d8a8511df6093ec5b21a8ddc438297d8b4425d7/Asset.png"
+                    alt="Triumph of Trinity A Three Card Game Project"
                   />
                 </div>
               </div>
               <div className="project_information">
-                <h2>World Bank</h2>
+                <h2>Triumph of Trinity A Three Card Game Project</h2>
                 <p>
-                Developed a dynamic Banking System website with a frontend in HTML and CSS, backend in PHP, and SQL database, featuring functionalities for 10 dummy customers to transfer money and view transaction history.
+                A card game that blends strategy, skill, and a bit of luck. Players enter lobbies to challenge others, aiming to outsmart their opponents with tactical card play. The game tracks detailed player stats, including wins, losses, and financial performance, offering a rich and competitive experience for card game lovers.
                 </p>
                 <div>
                   
-                  <SiHtml5 />
-                  <DiCss3 />
-                  <SiMysql />
-                  <SiPhp />
+                  <FaPython />
+                  <FaJava />
+                  <DiDatabase />
+                  <FaHtml5 />
                 </div>
                 <div>
                   <a
-                    href="https://github.com/VatsalDoshi/Banking-System"
+                    href="https://github.com/BhaveshxPurohit/Triumph-of-Trinity-A-Three-Card-Game-Project.git"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -174,26 +155,23 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://aem.dropbox.com/cms/content/dam/dropbox/www/en-us/branding/dropbox-logo@2x.jpg"
-                    alt=""
+                    src="https://raw.githubusercontent.com/BhaveshxPurohit/PowerSC-Forecasting-Residential-Energy-Usage-Across-South-Carolina/ba43e3caebafebc4d748cb48bb39a79556b29e82/Asset.png"
+                    alt="PowerSC Forecasting Residential Energy Usage Across South Carolina"
                   />
                 </div>
               </div>
               <div className="project_information">
-                <h2>DropBox Clone -Backend</h2>
+                <h2>PowerSC</h2>
                 <p>
-                  Backend API for a google drive like app built using NodeJS,
-                  Express, Mongoose, MongoDB Atlas and AWS S3 for storage. CRUD
-                  operations for users, files and folders.
+                PowerSC aims to tackle the challenge of managing electricity demand in South Carolina and nearby areas during peak summer months, focusing on preventing blackouts without building new infrastructure. By analyzing detailed house data, hourly energy usage, and weather patterns, the project seeks to understand consumption drivers and promote energy conservation among customers, aligning operational efficiency with environmental sustainability.
                 </p>
                 <div>
-                  <SiNodedotjs />
-                  <SiExpress />
-                  <SiMongodb />
+                  <SiRstudio />
+             
                 </div>
                 <div>
                   <a
-                    // href="https://github.com/VatsalDoshi/Backend-System"
+                    //href="https://github.com/BhaveshxPurohit/PowerSC-Forecasting-Residential-Energy-Usage-Across-South-Carolina.git"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -206,42 +184,6 @@ export const Projects = () => {
             </div>
           </div>
           
-          <div className="projects_container" data-aos="fade-right">
-            <div className="project">
-              <div className="project_videocontainer">
-                <div>
-                  <img
-                    src="https://user-images.githubusercontent.com/114709734/265773552-6eb509b3-b0ed-472e-913b-215751771c2b.png"
-                    alt="Flipkart-Clone"
-                  />
-                </div>
-              </div>
-              <div className="project_information">
-                <h2>Flipkart Clone</h2>
-                <p>
-                  Flipkart is an E-commerce web application, known for offering a wide range of products from electronics and fashion to home goods.
-                  
-                </p>
-                <div>
-                  <SiMongodb />
-                  <SiExpress />
-                  <FaReact />
-                  <SiNodedotjs />
-                </div>
-                <div>
-                  <a
-                    // href="https://github.com/VatsalDoshi/Flipkart-Clone"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt">
-                      Upcoming Project
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
       

@@ -2,7 +2,7 @@ import React from "react";
 import "./Introduction.css";
 import ExitToAppIcon from "@material-ui/icons/ExitToApp";
 import { ThemeContext } from "../../Context/theme";
-import profilePic from "../../assets/Photo_fw14_056.png";
+import profilePic from "../../assets/Bhavesh.jpg";
 
 
 export const Introduction = () => {
@@ -22,7 +22,7 @@ export const Introduction = () => {
             <div className="introduction_datacontainer">
 
             <h4>
-            Hey there! I'm currently pursuing my Master of Science in Information Systems at Syracuse University. Along the way, I've delved into crafting user-friendly apps, designing databases, and enhancing web experiences, armed with Python, Java, R, SQL, HTML/CSS, Bootstrap, ReactJS, NodeJS, and more. I've jazzed up web pages during my time at Eyuva Technologies and dived into data magic at The Sparks Foundation. Beyond the books, I've whipped up Twitter bots, cooked a hotel management system, and even tinkered with smart road maintenance through machine learning and IoT. I'm an enthusiastic techie excited to add a dash of skill and spark to a dynamic team!
+            Hey there! I'm currently pursuing my Master of Science in Information Systems at Syracuse University, with a fervent passion for data analytics and cloud technology. My academic and hands-on experience has equipped me with expertise in Python, Pandas, SQL, AWS, Azure, Docker, and Databricks, enabling me to tackle complex data analysis, visualization, and the deployment of cloud-based solutions. Certified in Blockchain and Python Scripting, I'm continuously expanding my skill set. Eager to apply my knowledge in real-world settings, I'm seeking summer internship opportunities in data analytics and cloud engineering to further my career and contribute to innovative projects. I look forward to connecting with professionals and enthusiasts in the field to exchange ideas and collaborate on transformative initiatives.
             </h4>
               
 

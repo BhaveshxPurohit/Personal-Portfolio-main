@@ -16,9 +16,12 @@
 }
 
 .introduction_logocontainer > img {
-  width: 55%;
-  height: 85%;
-  border-radius: 50%;
+  width: auto; /* Let image retain its natural width */
+  height: auto; /* Let image retain its natural height */
+  border-radius: 0%; /* Maintain circular shape */
+  /* Optional: Set a maximum size if needed */
+  max-width: 200px; /* Adjust value as needed */
+  max-height: 200px; /* Adjust value as needed */
   border: 2px solid var(--clr-primary);
 }
 
