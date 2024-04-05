@@ -7,7 +7,7 @@ export const Type = () => {
     <>
       <Typewriter
         options={{
-          strings: ["Data Analyzer", "Data Visualizer","Fitness Enthusaist"],
+          strings: ["Data Detective", "Insight Illuminator","Equity Enthusaist"],
           autoStart: true,
           loop: true,
           deleteSpeed: 50
