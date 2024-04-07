@@ -63,7 +63,7 @@ export const Timeline = () => {
               Syracuse University
             </h4>
             <p data-aos="fade-right">
-              Pursuing Masters of Science in Information Systems
+              I am currently pursuing a Master of Science in Information Systems with a focus on integrating core subjects such as Business Analytics, Database Management Systems, Cloud Management, and Introduction to Data Science to develop a comprehensive understanding of the strategic application of technology in business.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -98,7 +98,7 @@ export const Timeline = () => {
               Saint-Gobain International Delivery Centre
             </h4>
             <p data-aos="fade-right">
-            I have extensive experience managing over 50,000 Android and iOS devices and 7,000+ rugged devices with MobileIron, alongside global technical support via ServiceNow. Proficient in deploying customized app solutions and efficient in device enrollment using KME and DEP, I've also automated app deployment with Postman API scripts. My role included migrating devices to Microsoft Intune, analyzing support trends with Excel and Tableau, and implementing O365 configurations to prevent issues. Additionally, I'm familiar with Microsoft HoloLens for mixed reality applications, showcasing my ability to innovate and optimize IT processes.
+            I have extensive experience managing over 50,000 Android and iOS devices and 7,000+ rugged devices with MobileIron, alongside global technical support via ServiceNow. Proficient in deploying customized app solutions and efficient in device enrollment using KME and DEP, I've also automated app deployment with Postman API scripts. My role included migrating devices to Microsoft Intune, analyzing support trends with Excel and Tableau, and implementing O365 configurations to prevent issues.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
