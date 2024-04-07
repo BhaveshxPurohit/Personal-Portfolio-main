@@ -130,10 +130,10 @@ export const Timeline = () => {
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              The Sparks Foundation
+              Sahu Technologies
             </h4>
             <p data-aos="fade-right">
-            I've crafted user-friendly UIs for banking systems, elevated engagement through dynamic pages across numerous sites, ensured seamless application deployment with proactive support, and maintained impeccable client satisfaction by rigorously testing for a bug-free experience.
+            As the project lead for "Predictive Analysis of UPI Transactions for RBL Bank," I guided a team of 43 students through the intricate analysis of a 15-million-entry UPI transaction dataset. We employed a strategic task distribution based on individual expertise, utilizing tools such as Excel, Python, and R for data processing, statistical analysis, and machine learning forecasting. My role also extended to being the principal communicator with Sahu Technologies' CEO, ensuring clarity and alignment of project goals.
             </p>
           </VerticalTimelineElement>
 
