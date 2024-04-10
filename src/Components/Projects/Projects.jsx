@@ -15,7 +15,8 @@ export const Projects = () => {
             <div className="project">
               <div className="project_videocontainer">
                 <div>
-                <img src="https://raw.githubusercontent.com/BhaveshxPurohit/Exploring-Spotify-with-Natural-Language-Processing/f0bebf3cb54c409c9d4aca81b73c3b52ce4df191/Asset.png" alt="Project Visualization" />
+                <img src="https://raw.githubusercontent.com/BhaveshxPurohit/Automated-Stock-Data-Management/784b6e43001a6cfe4689b01b2877ef068d248c80/Asset.png" 
+                  alt="Project Visualization" />
 
                 </div>
               </div>
@@ -36,7 +37,7 @@ export const Projects = () => {
                 </div>
                 <div>
                   <a
-                    href="https://github.com/BhaveshxPurohit/Exploring-Spotify-with-Natural-Language-Processing.git"
+                    href="https://github.com/BhaveshxPurohit/Automated-Stock-Data-Management.git"
                     target="_blank"
                     rel="noreferrer"
                   >
