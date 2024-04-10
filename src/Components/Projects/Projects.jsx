@@ -23,7 +23,7 @@ export const Projects = () => {
               <div className="project_information">
                 <h2>Automated Stock Data Management</h2>
                 <p>
-                This project harnesses Python and Alteryx for efficient data wrangling, coupled with a cloud-based ELT pipeline via Azure Functions, Logic Apps, and Azure Synapse Analytics for streamlined stock data handling. This setup automates data extraction, and transformation, and updates notifications, while Synapse Pipelines facilitate data refreshes and resource optimization. Power BI integration enhances data visualization and analysis, offering insightful stock market trends and performance evaluations in a concise, automated solution.
+                This project harnesses Python and Alteryx for efficient data wrangling, coupled with a cloud-based ELT pipeline via Azure Functions, Logic Apps, and Azure Synapse Analytics for streamlined stock data handling. This setup automates data extraction, and transformation, and updates notifications, while Synapse Pipelines facilitate data refreshes and resource optimization. 
                 </p>
                 <div>
                   <FaPython />
