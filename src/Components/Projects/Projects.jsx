@@ -1,7 +1,7 @@
 import React from "react";
 import "./Projects.css";
 import { FaPython, FaJava, FaHtml5 } from "react-icons/fa";
-import { SiRstudio, SiJupyter, SiHtml5, SiTwitter } from "react-icons/si";
+import { SiRstudio, SiJupyter, SiHtml5, SiTwitter, SiAlteryx, SiAzurefunctions, SiMicrosoftazure } from "react-icons/si";
 import { DiDatabase } from "react-icons/di"; 
 import { AiOutlineRobot } from "react-icons/ai"; 
 export const Projects = () => {
@@ -10,6 +10,45 @@ export const Projects = () => {
       <div className="section">
         <h2 className="section__title different">Projects</h2>
         <div className="allProjects">
+          
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                <img src="https://raw.githubusercontent.com/BhaveshxPurohit/Exploring-Spotify-with-Natural-Language-Processing/f0bebf3cb54c409c9d4aca81b73c3b52ce4df191/Asset.png" alt="Project Visualization" />
+
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>Automated Stock Data Management</h2>
+                <p>
+                This project harnesses Python and Alteryx for efficient data wrangling, coupled with a cloud-based ELT pipeline via Azure Functions, Logic Apps, and Azure Synapse Analytics for streamlined stock data handling. This setup automates data extraction, and transformation, and updates notifications, while Synapse Pipelines facilitate data refreshes and resource optimization. Power BI integration enhances data visualization and analysis, offering insightful stock market trends and performance evaluations in a concise, automated solution.
+                </p>
+                <div>
+                  <FaPython />
+                  <SiAlteryx />
+                  <SiAzurefunctions />
+                  <SiMicrosoftazure />
+                  <DiDatabase /v>
+                  
+                
+                  
+                </div>
+                <div>
+                  <a
+                    href="https://github.com/BhaveshxPurohit/Exploring-Spotify-with-Natural-Language-Processing.git"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
