@@ -1,7 +1,11 @@
 import React from "react";
 import "./Projects.css";
 import { FaPython, FaJava, FaHtml5 } from "react-icons/fa";
+<<<<<<< HEAD
 import { SiRstudio, SiJupyter, SiHtml5, SiTwitter, SiAlteryx, SiAzurefunctions, SiMicrosoftazure } from "react-icons/si";
+=======
+import { SiRstudio, SiJupyter, SiHtml5, SiTwitter, SiAdobeillustrator } from "react-icons/si";
+>>>>>>> 142f534 (Initial commit)
 import { DiDatabase } from "react-icons/di"; 
 import { AiOutlineRobot } from "react-icons/ai"; 
 export const Projects = () => {
@@ -61,13 +65,13 @@ export const Projects = () => {
                 </div>
               </div>
               <div className="project_information">
-                <h2>Analyzing NYC Green Taxi Trips</h2>
+                <h2>Stock Data Pipeline</h2>
                 <p>
-                A study on NYC Green Taxi Trip Data (Jan 2022 - Jan 2023) uses machine learning to predict fares and find profitable pickup spots, extending service beyond Manhattan and airports. This aims to optimize earnings for drivers and improve service quality for passengers, enhancing efficiency in the taxi industry.
+                In the era of rapid financial information exchange, our project introduces an automated ELT pipeline utilizing Python, Alteryx, and Azure services to revolutionize stock data processing. By automating the extraction, transformation, and loading of historical stock data from indexes and companies over the past decade, we ensure seamless integration with Power BI for advanced analysis and reporting. This integration spans several Azure cloud services and data processing tools, including Azure Functions for daily data retrieval, Alteryx for data cleansing and transformation, and Azure Synapse Analytics for efficient data loading and transformation. Our approach streamlines the monitoring and analysis of stock market trends and company financials, offering a comprehensive solution that enhances decision-making in the financial sector.
                 </p>
                 <div>
-                  <SiRstudio />
-                  <SiJupyter />
+                  <DiDatabase />
+                  <FaPython />
                   
                   
                 </div>
@@ -96,13 +100,13 @@ export const Projects = () => {
                 </div>
               </div>
               <div className="project_information">
-                <h2>Analyzing Social Media Sentiment</h2>
+                <h2>Video Game Analysis</h2>
                 <p>
-                This study analyzes 1.6 million tweets, employing advanced techniques like text mining, sentiment analysis, and hierarchical clustering. It aims to uncover patterns in user behavior and sentiment, offering insights applicable to various domains such as marketing and societal sentiment analysis.
+                This project analyzes a rich dataset of video game sales, leveraging R to clean, process, and visualize the data to uncover industry trends and preferences across different regions and platforms. Through targeted visualizations like bar graphs, pie charts, and scatter plots, we explore global sales distribution, the relationship between critic and user scores, and the impact of genres and platforms on market performance. This concise analysis offers insights into regional sales preferences and the evolving video game industry landscape, providing valuable information for stakeholders and enthusiasts looking to understand the drivers of video game success.
                 </p>
                 <div>
                   <SiRstudio />
-                  <SiTwitter />
+                  <SiAdobeillustrator/>
                   <SiJupyter />
                 </div>
                 <div>
@@ -153,31 +157,31 @@ export const Projects = () => {
             </div>
           </div>
 
-          <div className="projects_container world_bank" data-aos="fade-right">
+          
+          <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://raw.githubusercontent.com/BhaveshxPurohit/Triumph-of-Trinity-A-Three-Card-Game-Project/0d8a8511df6093ec5b21a8ddc438297d8b4425d7/Asset.png"
-                    alt="Triumph of Trinity A Three Card Game Project"
+                    src="https://raw.githubusercontent.com/BhaveshxPurohit/Analyzing-NYC-Green-Taxi-Trips/43b2b5cea9ef37fb15c2018492bb4bb76bdfb3b1/Asset.png"
+                    alt="Analyzing-NYC-Green-Taxi-Trips"
                   />
                 </div>
               </div>
               <div className="project_information">
-                <h2>Triumph of Trinity A Three Card Game Project</h2>
+                <h2>Analyzing NYC Green Taxi Trips</h2>
                 <p>
-                A card game that blends strategy, skill, and a bit of luck. Players enter lobbies to challenge others, aiming to outsmart their opponents with tactical card play. The game tracks detailed player stats, including wins, losses, and financial performance, offering a rich and competitive experience for card game lovers.
+                A study on NYC Green Taxi Trip Data (Jan 2022 - Jan 2023) uses machine learning to predict fares and find profitable pickup spots, extending service beyond Manhattan and airports. This aims to optimize earnings for drivers and improve service quality for passengers, enhancing efficiency in the taxi industry.
                 </p>
                 <div>
+                  <SiRstudio />
+                  <SiJupyter />
                   
-                  <FaPython />
-                  <FaJava />
-                  <DiDatabase />
-                  <FaHtml5 />
+                  
                 </div>
                 <div>
                   <a
-                    href="https://github.com/BhaveshxPurohit/Triumph-of-Trinity-A-Three-Card-Game-Project.git"
+                    href="https://github.com/BhaveshxPurohit/Analyzing-NYC-Green-Taxi-Trips.git "
                     target="_blank"
                     rel="noreferrer"
                   >

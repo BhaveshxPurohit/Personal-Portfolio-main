@@ -38,7 +38,7 @@ export const About = () => {
     <>
       <div className="about center">
         <h1 data-aos="fade-right" className="mobileHead">
-          Hello, I am <span className="about__name">Bhavesh Purohit</span>
+          Hello, I am <span className="about__name">Khushi Shetty</span>
         </h1>
         <Type />
         <p className="about__desc" data-aos="fade-right">
@@ -46,7 +46,7 @@ export const About = () => {
         </p>
         <div className="about__contact center">
           <a
-            href="https://github.com/BhaveshxPurohit"
+            href="https://github.com/khushishetty22"
             aria-label="github"
             target="_blank"
             rel="noreferrer"
@@ -55,7 +55,7 @@ export const About = () => {
             <GitHubIcon />
           </a>
           <a
-            href="mailto:bppurohi@syr.edu"
+            href="mailto:khshetty@syr.edu"
             target="_blank"
             rel="noreferrer"
             aria-label="mail"
@@ -64,7 +64,7 @@ export const About = () => {
             <EmailIcon />
           </a>
           <a
-            href="tel:+16803568409"
+            href="tel:+13153171808"
             target="_blank"
             rel="noreferrer"
             aria-label="phone"
@@ -73,7 +73,7 @@ export const About = () => {
             <PhoneIcon />
           </a>
           <a
-            href="https://www.linkedin.com/in/bhavesh-purohit-56354b173/"
+            href="https://www.linkedin.com/in/khushishetty/"
             aria-label="linkedin"
             className="link link--icon"
             target="_blank"
@@ -86,7 +86,11 @@ export const About = () => {
           className="btnResume"
           onClick={() => {
             window.open(
+<<<<<<< HEAD
               "https://drive.google.com/file/d/1V-O_-BcHfLiP-I8QFQ_3uwINo1kndj1F/view?usp=sharing"
+=======
+              "https://drive.google.com/file/d/1LfCwhXCv48uMSEWn7EknirW7rC3UMmFh/view?usp=sharing"
+>>>>>>> 142f534 (Initial commit)
             );
           }}
         >
