@@ -6,7 +6,7 @@ export const Footer = () => {
   const [{ themename }] = React.useContext(ThemeContext);
 
   const openCalendly = () => {
-    window.open("https://calendly.com/khushisiya6/30min", "Schedule Time with Me", "height=700,width=600");
+    window.open("https://calendly.com/purohitbhavesh/30min", "Schedule Time with Me", "height=700,width=600");
   };
 
   return (
