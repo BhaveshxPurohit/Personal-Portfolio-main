@@ -211,12 +211,12 @@ export const Projects = () => {
                 </div>
                 <div>
                   <a
-                    //href="https://github.com/BhaveshxPurohit/PowerSC-Forecasting-Residential-Energy-Usage-Across-South-Carolina.git"
+                    href="https://github.com/BhaveshxPurohit/PowerSC.git"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <span type="button" className="btns onbt">
-                      Upcoming Project
+                      View Code
                     </span>
                   </a>
                 </div>
