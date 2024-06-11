@@ -63,7 +63,7 @@ export const Timeline = () => {
               Syracuse University
             </h4>
             <p data-aos="fade-right">
-              I am currently pursuing a Master of Science in Information Systems with a focus on integrating core subjects such as Business Analytics, Database Management Systems, Cloud Management, and Introduction to Data Science to develop a comprehensive understanding of the strategic application of technology in business.
+              Pursuing Master of Science in Information Systems
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -95,10 +95,10 @@ export const Timeline = () => {
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Saint-Gobain International Delivery Centre
+              
             </h4>
             <p data-aos="fade-right">
-            I have extensive experience managing over 50,000 Android and iOS devices and 7,000+ rugged devices with MobileIron, alongside global technical support via ServiceNow. Proficient in deploying customized app solutions and efficient in device enrollment using KME and DEP, I've also automated app deployment with Postman API scripts. My role included migrating devices to Microsoft Intune, analyzing support trends with Excel and Tableau, and implementing O365 configurations to prevent issues.
+            Saint-Gobain International Delivery Centre
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -130,10 +130,10 @@ export const Timeline = () => {
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Sahu Technologies
+              
             </h4>
             <p data-aos="fade-right">
-            As the project lead for "Predictive Analysis of UPI Transactions for RBL Bank," I guided a team of 43 students through the intricate analysis of a 15-million-entry UPI transaction dataset. We employed a strategic task distribution based on individual expertise, utilizing tools such as Excel, Python, and R for data processing, statistical analysis, and machine learning forecasting. My role also extended to being the principal communicator with Sahu Technologies' CEO, ensuring clarity and alignment of project goals.
+            Sahu Technologies            
             </p>
           </VerticalTimelineElement>
 
@@ -291,7 +291,7 @@ export const Timeline = () => {
               Mumbai University
             </h4>
             <p data-aos="fade-right">
-            I earned a Bachelor of Engineering in Electronics and Telecommunications from the Mumbai University, immersing myself in coursework covering Database Management Systems, Data Structures and Algorithms, as well as Cloud Computing. 
+            Bachelor of Engineering in Electronics and Telecommunications            
             </p>
           </VerticalTimelineElement>
 
