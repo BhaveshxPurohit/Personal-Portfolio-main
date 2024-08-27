@@ -170,6 +170,42 @@ export const Timeline = () => {
             Saint-Gobain International Delivery Centre
             </p>
           </VerticalTimelineElement>
+<VerticalTimelineElement
+            date={"Jul 2021 - Jun 2022"}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              border: "3px solid var(--clr-primary)",
+              backgroundColor: `var(--clr-bg)`,
+              textAlign: "center",
+              color: `var(--clr-fg-alt)`,
+            }}
+            contentArrowStyle={{
+              borderRight: "16px solid  var(--clr-primary)",
+            }}
+            iconStyle={{
+              border: ` 3px solid var(--clr-primary)`,
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+            icon={<WorkIcon />}
+          >
+            <h3
+              className="vertical-timeline-element-title"
+              data-aos="fade-right"
+            >
+              Business Analyst
+            </h3>
+            <h4
+              className="vertical-timeline-element-subtitle"
+              data-aos="fade-right"
+            >
+              
+            </h4>
+            <p data-aos="fade-right">
+            Bhawani Electronics
+            </p>
+          </VerticalTimelineElement>
+          
           <VerticalTimelineElement
             date={"Apr 2021 - Jun 2021"}
             contentStyle={{
@@ -193,7 +229,7 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Project Coordinator
+              Project Coordinator Intern
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
@@ -206,127 +242,7 @@ export const Timeline = () => {
             </p>
           </VerticalTimelineElement>
 
-          {/* 
-
-
-            
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date={"Feb 2020 - Present"}
-            contentStyle={{
-              boxShadow: `var(--shadow)`,
-              border: "3px solid var(--clr-primary)",
-              backgroundColor: `var(--clr-bg)`,
-              textAlign: "center",
-              color: `var(--clr-fg-alt)`,
-            }}
-            contentArrowStyle={{
-              borderRight: "16px solid  var(--clr-primary)",
-            }}
-            iconStyle={{
-              border: ` 3px solid var(--clr-primary)`,
-              backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`,
-            }}
-            icon={<WorkIcon />}
-          >
-            <h3
-              className="vertical-timeline-element-title"
-              data-aos="fade-right"
-            >
-              Co-founder
-            </h3>
-            <h4
-              className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
-            >
-              Agricultural Training institute, Ahmednagar
-            </h4>
-            <p data-aos="fade-right">
-              Started in Feb 2020 with 3 other co-founders and provided training
-              to 20,000+ farmers and 3000+ students till now. Also honored by
-              Agri-Education Award 2021 By Agriculture Today Group.
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date={"Dec 2019 - Aug 2021"}
-            contentStyle={{
-              boxShadow: `var(--shadow)`,
-              border: "3px solid var(--clr-primary)",
-              backgroundColor: `var(--clr-bg)`,
-              textAlign: "center",
-              color: `var(--clr-fg-alt)`,
-            }}
-            contentArrowStyle={{
-              borderRight: "16px solid  var(--clr-primary)",
-            }}
-            iconStyle={{
-              border: ` 3px solid var(--clr-primary)`,
-              backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`,
-            }}
-            icon={<WorkIcon />}
-          >
-            <h3
-              className="vertical-timeline-element-title"
-              data-aos="fade-right"
-            >
-              Founder & Director (Part Time)
-            </h3>
-            <h4
-              className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
-            >
-              Sitocrats Pvt. Ltd., Parbhani (MH)
-            </h4>
-            <p data-aos="fade-right">
-              Started in Dec 2019 and delivered 15+ Projects on wordpress,
-              Angular, Nodejs and Flutter till Aug 2021.
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date={"Jul 2017 - Aug 2021"}
-            contentStyle={{
-              boxShadow: `var(--shadow)`,
-              border: "3px solid var(--clr-primary)",
-              backgroundColor: `var(--clr-bg)`,
-              textAlign: "center",
-              color: `var(--clr-fg-alt)`,
-            }}
-            contentArrowStyle={{
-              borderRight: "16px solid  var(--clr-primary)",
-            }}
-            iconStyle={{
-              border: ` 3px solid var(--clr-primary)`,
-              backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`,
-            }}
-            icon={<SchoolIcon />}
-          >
-            <h3
-              className="vertical-timeline-element-title"
-              data-aos="fade-right"
-            >
-              Student [BTech. (Agril. Engineering)]
-            </h3>
-            <h4
-              className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
-            >
-              CAET, VNMKV University, Parbhani (MH)
-            </h4>
-            <p data-aos="fade-right">
-              Studied Agricultural Engineering which consists of all the
-              subjects accross all engineering and agricultural streams. Passed
-              with 8.32 CGPA
-            </p>
-          </VerticalTimelineElement>
           
-          
-          */}
-
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date={"Aug 2018 - May 2022"}
