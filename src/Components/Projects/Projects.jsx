@@ -93,7 +93,7 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://raw.githubusercontent.com/BhaveshxPurohit/PowerSC-Forecasting-Residential-Energy-Usage-Across-South-Carolina/ba43e3caebafebc4d748cb48bb39a79556b29e82/Asset.png"
+                    src="https://raw.githubusercontent.com/BhaveshxPurohit/Energy-Optimization-for-Peak-Demand-in-South-Carolina/main/energy.png"
                     alt="PowerSC Forecasting Residential Energy Usage Across South Carolina"
                   />
                 </div>
