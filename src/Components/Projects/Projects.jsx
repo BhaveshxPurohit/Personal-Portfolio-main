@@ -15,7 +15,7 @@ export const Projects = () => {
             <div className="project">
               <div className="project_videocontainer">
                 <div>
-                <img src="https://raw.githubusercontent.com/BhaveshxPurohit/Automated-Stock-Data-Management/784b6e43001a6cfe4689b01b2877ef068d248c80/Asset.png" 
+                <img src="https://raw.githubusercontent.com/BhaveshxPurohit/Cloud-Based-ELT-for-Stock-Data-Management-using-Python/main/Stock%20(1).jpg" 
                   alt="Project Visualization" />
 
                 </div>
@@ -55,7 +55,8 @@ export const Projects = () => {
             <div className="project">
               <div className="project_videocontainer">
                 <div>
-                <img src="https://github.com/BhaveshxPurohit/NLP-Driven-Insights-into-Spotify-Usage.git" alt="Project Visualization" />
+                <img src="https://raw.githubusercontent.com/BhaveshxPurohit/NLP-Driven-Insights-into-Spotify-Usage/main/spotify%20(1).jpg" 
+                  alt="Project Visualization" />
 
                 </div>
               </div>
