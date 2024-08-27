@@ -1,7 +1,7 @@
 import React from "react";
 import "./Projects.css";
 import { FaPython, FaJava, FaHtml5 } from "react-icons/fa";
-import { SiRstudio, SiJupyter, SiHtml5, SiTwitter, SiAlteryx, SiAzurefunctions, SiMicrosoftazure } from "react-icons/si";
+import { SiRstudio, SiJupyter, SiHtml5, SiTwitter, SiAlteryx, SiAzurefunctions, SiMicrosoftazure, SiTableau, SiPowerbi } from "react-icons/si";
 import { DiDatabase } from "react-icons/di"; 
 import { AiOutlineRobot } from "react-icons/ai"; 
 export const Projects = () => {
@@ -31,6 +31,7 @@ export const Projects = () => {
                   <SiAzurefunctions />
                   <SiMicrosoftazure />
                   <DiDatabase />
+                  <SiPowerbi/>
                   
                 
                   
@@ -68,6 +69,7 @@ export const Projects = () => {
                 <div>
                   <FaPython />
                   <SiJupyter />
+                  <SiTableau />
                 
                   
                 </div>
