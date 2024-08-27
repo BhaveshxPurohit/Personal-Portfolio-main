@@ -30,7 +30,6 @@ export const Projects = () => {
                   <SiAlteryx />
                   <SiAzurefunctions />
                   <SiMicrosoftazure />
-                  <DiDatabase />
                   <SiPowerbi/>
                   
                 
