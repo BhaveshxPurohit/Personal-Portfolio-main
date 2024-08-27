@@ -61,7 +61,9 @@ export const Timeline = () => {
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
+              <p>
               Clab AI
+               </p>
             </h4>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -93,7 +95,9 @@ export const Timeline = () => {
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
+               <p>
               Clab AI
+               </p>
             </h4>
           </VerticalTimelineElement>
           <VerticalTimelineElement
