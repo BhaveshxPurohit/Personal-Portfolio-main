@@ -42,7 +42,7 @@ export const About = () => {
         </h1>
         <Type />
         <p className="about__desc" data-aos="fade-right">
-        Passionate data enthusiast skilled in uncovering insights and presenting them in clear, compelling ways for non-technical audiences. Excels in big data exploration and machine learning, always eager to learn and adapt to new technologies. Sees data as a playground for innovation and enjoys predicting trends and discovering correlations.
+        Passionate data enthusiast skilled in uncovering insights and presenting them in clear, compelling ways for non-technical audiences. Excelling in big data exploration and machine learning, always eager to learn and adapt to new technologies. I see data as a playground for innovation and enjoys predicting trends and discovering correlations.
         </p>
         <div className="about__contact center">
           <a
