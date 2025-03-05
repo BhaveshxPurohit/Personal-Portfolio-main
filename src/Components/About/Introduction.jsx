@@ -22,14 +22,9 @@ export const Introduction = () => {
             <div className="introduction_datacontainer">
 
             <h4>
-            Hi, I’m Bhavesh Purohit, a data-driven problem solver with a passion for AI, machine learning, and cloud technologies. I thrive on transforming raw data into meaningful insights, building intelligent solutions that drive real-world impact.<br>
-
-I hold a Master’s in Information Systems from Syracuse University and a Bachelor’s in Electronics and Telecommunication Engineering from the University of Mumbai. My academic journey has been a blend of software development, data science, and AI research, equipping me with a strong foundation in programming, analytics, and system architecture.<br>
-
-With hands-on experience in data science, analytics, and software engineering, I’ve built AI-powered recommendation systems, predictive models, and large-scale ETL pipelines. From designing knowledge graphs to automating real-time data processing, I enjoy tackling complex challenges with Python, SQL, cloud platforms, and machine learning frameworks.<br>
-
-Beyond coding, I’m always exploring new technologies, optimizing workflows, and staying ahead of industry trends. When I’m not immersed in tech, you’ll find me contributing to research, working on open-source projects, or experimenting with AI models.<br>
-
+            Hi, I’m Bhavesh Purohit, a data-driven problem solver with a passion for AI, machine learning, and cloud technologies. I thrive on transforming raw data into meaningful insights, building intelligent solutions that drive real-world impact.
+I hold a Master’s in Information Systems from Syracuse University and a Bachelor’s in Electronics and Telecommunication Engineering from the University of Mumbai. My academic journey has been a blend of software development, data science, and AI research, equipping me with a strong foundation in programming, analytics, and system architecture.
+With hands-on experience in data science, analytics, and software engineering, I’ve built AI-powered recommendation systems, predictive models, and large-scale ETL pipelines. From designing knowledge graphs to automating real-time data processing, I enjoy tackling complex challenges with Python, SQL, cloud platforms, and machine learning frameworks.
 Let’s connect and build something innovative together!
             </h4>
               
