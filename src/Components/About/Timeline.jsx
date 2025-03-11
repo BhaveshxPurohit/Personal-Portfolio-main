@@ -195,7 +195,7 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Web Development Intern
+              Project Coordinator Intern
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
