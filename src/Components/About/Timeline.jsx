@@ -55,7 +55,7 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Data Scientist
+              AI Engineer
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
@@ -124,7 +124,7 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Data Analyst
+              System Administrator (L3)
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
