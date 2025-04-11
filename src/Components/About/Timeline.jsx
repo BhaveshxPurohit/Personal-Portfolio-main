@@ -171,43 +171,7 @@ export const Timeline = () => {
             <p data-aos="fade-right">
             Saint-Gobain International Delivery Centre
             </p>
-          </VerticalTimelineElement>
-<VerticalTimelineElement
-            date={"Jul 2021 - Jun 2022"}
-            contentStyle={{
-              boxShadow: `var(--shadow)`,
-              border: "3px solid var(--clr-primary)",
-              backgroundColor: `var(--clr-bg)`,
-              textAlign: "center",
-              color: `var(--clr-fg-alt)`,
-            }}
-            contentArrowStyle={{
-              borderRight: "16px solid  var(--clr-primary)",
-            }}
-            iconStyle={{
-              border: ` 3px solid var(--clr-primary)`,
-              backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`,
-            }}
-            icon={<WorkIcon />}
-          >
-            <h3
-              className="vertical-timeline-element-title"
-              data-aos="fade-right"
-            >
-              Inventory Analyst
-            </h3>
-            <h4
-              className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
-            >
-              
-            </h4>
-            <p data-aos="fade-right">
-            Bhawani Electronics
-            </p>
-          </VerticalTimelineElement>
-          
+          </VerticalTimelineElement>          
           <VerticalTimelineElement
             date={"May 2019 - Jul 2019"}
             contentStyle={{
