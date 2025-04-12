@@ -55,7 +55,7 @@ export const About = () => {
             <GitHubIcon />
           </a>
           <a
-            href="mailto:bppurohi@gmail.cpm"
+            href="mailto:purohitbhavesh912@gmail.com"
             target="_blank"
             rel="noreferrer"
             aria-label="mail"
@@ -64,7 +64,7 @@ export const About = () => {
             <EmailIcon />
           </a>
           <a
-            href="tel:+16803568409"
+            href="tel:+13154968715"
             target="_blank"
             rel="noreferrer"
             aria-label="phone"
