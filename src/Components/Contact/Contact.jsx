@@ -35,7 +35,7 @@ export const Contact = () => {
               <VscGithub className="github" />
             </a>
             <a
-              href="mailto:purohitbhavesh912@gmail.com"
+              href="mailto:bppurohi@gmail.com"
               target="_blank"
               rel="noreferrer"
             >
@@ -51,7 +51,7 @@ export const Contact = () => {
                 <CgMail className="email" />
               </span>
               <span>
-                <p>purohitbhavesh912@gmail.com</p>
+                <p>bppurohi@gmail.com</p>
               </span>
             </div>
             <div className="iconsCont">
@@ -59,7 +59,7 @@ export const Contact = () => {
                 <BsFillTelephoneFill className="phone" />
               </span>
               <span>
-                <p>+1 3154968715</p>
+                <p>+1 680-356-8409</p>
               </span>
             </div>
           </div>
