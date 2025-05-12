@@ -127,7 +127,7 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Data Analyst Intern
+              Data Analyst 
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
@@ -162,7 +162,7 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Data Analyst
+              Data Analyst Intern
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
