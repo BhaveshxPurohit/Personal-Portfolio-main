@@ -280,7 +280,7 @@ export const Timeline = () => {
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            date={"May 2019 - Jul 2019"}
+            date={"Apr 2019 - Jun 2019"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -302,7 +302,7 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Marketing Analyst Intern
+              Project Coordinator
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
