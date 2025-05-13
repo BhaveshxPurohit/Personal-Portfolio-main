@@ -231,7 +231,7 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Technology Analyst
+              System Engineer
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
