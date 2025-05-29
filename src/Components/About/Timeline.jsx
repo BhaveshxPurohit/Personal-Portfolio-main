@@ -32,8 +32,8 @@ export const Timeline = () => {
         </h2>
         <VerticalTimeline lineColor={linecolor}>
 
-          <VerticalTimelineElement
-            date={"May 2025 - Present"}
+           <VerticalTimelineElement
+            date={"Aug 2023 - May 2025"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -49,24 +49,25 @@ export const Timeline = () => {
               backgroundColor: `var(--clr-bg)`,
               color: `var(--clr-primary)`,
             }}
-            icon={<WorkIcon />}
+            icon={<SchoolIcon />}
           >
             <h3
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Reserach Analyst
+              Student
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              
+              Syracuse University
             </h4>
             <p data-aos="fade-right">
-            Syracuse University           
+              Master of Science in Information Systems
             </p>
           </VerticalTimelineElement>
+                    </VerticalTimelineElement>
 
           
           <VerticalTimelineElement
@@ -174,7 +175,7 @@ export const Timeline = () => {
             </h4>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            date={"Aug 2023 - May 2025"}
+            date={"Jul 2020 - Jun 2023"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -190,22 +191,22 @@ export const Timeline = () => {
               backgroundColor: `var(--clr-bg)`,
               color: `var(--clr-primary)`,
             }}
-            icon={<SchoolIcon />}
+            icon={<WorkIcon />}
           >
             <h3
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Student
+              System Engineer
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Syracuse University
+              
             </h4>
             <p data-aos="fade-right">
-              Pursuing Master of Science in Information Systems
+            Saint-Gobain International Delivery Centre          
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
