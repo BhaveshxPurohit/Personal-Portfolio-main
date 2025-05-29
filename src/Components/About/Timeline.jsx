@@ -66,10 +66,7 @@ export const Timeline = () => {
             <p data-aos="fade-right">
               Master of Science in Information Systems
             </p>
-          </VerticalTimelineElement>
-                    </VerticalTimelineElement>
-
-          
+          </VerticalTimelineElement>          
           <VerticalTimelineElement
             date={"Feb 2025 - Apr 2025"}
             contentStyle={{
