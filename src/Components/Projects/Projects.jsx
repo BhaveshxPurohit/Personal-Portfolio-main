@@ -75,10 +75,22 @@ const projectData = [
     link: "https://github.com/BhaveshxPurohit/EV-Adoption-and-Incentives-in-New-York-State",
     category: "Dashboards",
   },
+  {
+    title: "Optimizing ICU Management with Data Warehousing",
+    imgSrc:
+      "https://raw.githubusercontent.com/BhaveshxPurohit/Optimizing-ICU-Management-with-Data-Warehousing/main/images/banner.jpg",
+    icons: [
+      <FaPython key="python" />,
+      <SiPowerbi key="powerbi" />,
+      <SiMicrosoftazure key="azure" />,
+    ],
+    link: "https://github.com/BhaveshxPurohit/Optimizing-ICU-Management-with-Data-Warehousing",
+    category: "Data Warehouse",
+  },
 ];
 
 // Categories
-const categories = ["All", "Cloud", "Data Science", "Dashboards"];
+const categories = ["All", "Cloud", "Data Science", "Dashboards", "Data Warehouse"];
 
 export const Projects = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
