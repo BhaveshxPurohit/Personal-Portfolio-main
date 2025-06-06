@@ -55,7 +55,7 @@ export const About = () => {
             <GitHubIcon />
           </a>
           <a
-            href="mailto:bppurohi@gmail.com"
+            href="mailto:bhaveshpurohiit@gmail.com"
             target="_blank"
             rel="noreferrer"
             aria-label="mail"
@@ -86,7 +86,7 @@ export const About = () => {
           className="btnResume"
           onClick={() => {
             window.open(
-              "https://drive.google.com/file/d/18KhfySGxAmW6q9Wb431247eFsmwbE0Jt/view?usp=sharing"
+              "https://drive.google.com/file/d/1X0bz7-yO6Jl3EIrn1-v-Ubp6FLJvEOqB/view?usp=sharing"
             );
           }}
         >
