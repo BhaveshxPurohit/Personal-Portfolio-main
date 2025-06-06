@@ -79,23 +79,23 @@ const projectData = [
     link: "https://github.com/BhaveshxPurohit/Energy-Optimization-for-Peak-Demand-in-South-Carolina.git",
     category: "Dashboards",
   },
-  {
-    title: "Cooling Urban Heat Islands – EY Open Science AI Challenge 2025",
-    description:
-      "This project predicts Urban Heat Islands using AI and satellite data, providing insights for sustainable cooling strategies.",
-    images: [
-      "https://raw.githubusercontent.com/BhaveshxPurohit/Cooling-Urban-Heat-Islands/main/images/banner.jpg",
-    ],
-    icons: [
-      <FaPython key="python" />,
-      <SiTableau key="tableau" />,
-      <SiPowerbi key="powerbi" />,
-      <SiGoogleearthengine key="gee" />,
-      <SiOpencv key="opencv" />,
-    ],
-    link: "https://github.com/BhaveshxPurohit/Cooling-Urban-Heat-Islands",
-    category: "Data Science",
-  },
+ {
+  title: "Cooling Urban Heat Islands – EY Open Science AI Challenge 2025",
+  description:
+    "This project predicts Urban Heat Islands using AI and satellite data, providing insights for sustainable cooling strategies.",
+  images: [
+    "https://github.com/user-attachments/assets/16a49e6d-ce08-4071-85d3-06985999618e",
+  ],
+  icons: [
+    <FaPython key="python" />,
+    <SiTableau key="tableau" />,
+    <SiPowerbi key="powerbi" />,
+    <SiGoogleearthengine key="gee" />,
+    <SiOpencv key="opencv" />,
+  ],
+  link: "https://github.com/BhaveshxPurohit/Cooling-Urban-Heat-Islands",
+  category: "Data Science",
+},
   {
     title: "EV Adoption and Incentives in New York State",
     description:
