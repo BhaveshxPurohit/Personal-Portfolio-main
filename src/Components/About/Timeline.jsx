@@ -103,7 +103,42 @@ export const Timeline = () => {
             </p>
           </VerticalTimelineElement>
            <VerticalTimelineElement
-            date={"Aug 2024 - Dec 2024"}
+            date={"Sep 2024 - Present"}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              border: "3px solid var(--clr-primary)",
+              backgroundColor: `var(--clr-bg)`,
+              textAlign: "center",
+              color: `var(--clr-fg-alt)`,
+            }}
+            contentArrowStyle={{
+              borderRight: "16px solid  var(--clr-primary)",
+            }}
+            iconStyle={{
+              border: ` 3px solid var(--clr-primary)`,
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+            icon={<WorkIcon />}
+          >
+            <h3
+              className="vertical-timeline-element-title"
+              data-aos="fade-right"
+            >
+              Data & Insights Analyst
+            </h3>
+            <h4
+              className="vertical-timeline-element-subtitle"
+              data-aos="fade-right"
+            >
+              <p>
+              Allstate Insurance Company
+               </p>
+            </h4>
+          </VerticalTimelineElement>
+         
+          <VerticalTimelineElement
+            date={"Aug 2022 - Jul 2023"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -132,13 +167,12 @@ export const Timeline = () => {
               data-aos="fade-right"
             >
               <p>
-              Clab AI
+              KPIT Technologies
                </p>
             </h4>
           </VerticalTimelineElement>
-         
           <VerticalTimelineElement
-            date={"Jun 2024 - Aug 2024"}
+            date={"Jul 2020 - Jun 2022"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -160,41 +194,7 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Data Analyst Intern
-            </h3>
-            <h4
-              className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
-            >
-              <p>
-              Clab AI
-               </p>
-            </h4>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            date={"Jul 2020 - Jun 2023"}
-            contentStyle={{
-              boxShadow: `var(--shadow)`,
-              border: "3px solid var(--clr-primary)",
-              backgroundColor: `var(--clr-bg)`,
-              textAlign: "center",
-              color: `var(--clr-fg-alt)`,
-            }}
-            contentArrowStyle={{
-              borderRight: "16px solid  var(--clr-primary)",
-            }}
-            iconStyle={{
-              border: ` 3px solid var(--clr-primary)`,
-              backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`,
-            }}
-            icon={<WorkIcon />}
-          >
-            <h3
-              className="vertical-timeline-element-title"
-              data-aos="fade-right"
-            >
-              System Engineer
+              Data Reporting Analyst
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
@@ -203,42 +203,7 @@ export const Timeline = () => {
               
             </h4>
             <p data-aos="fade-right">
-            Saint-Gobain International Delivery Centre          
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            date={"Jul 2020 - Jun 2023"}
-            contentStyle={{
-              boxShadow: `var(--shadow)`,
-              border: "3px solid var(--clr-primary)",
-              backgroundColor: `var(--clr-bg)`,
-              textAlign: "center",
-              color: `var(--clr-fg-alt)`,
-            }}
-            contentArrowStyle={{
-              borderRight: "16px solid  var(--clr-primary)",
-            }}
-            iconStyle={{
-              border: ` 3px solid var(--clr-primary)`,
-              backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`,
-            }}
-            icon={<WorkIcon />}
-          >
-            <h3
-              className="vertical-timeline-element-title"
-              data-aos="fade-right"
-            >
-              Business Operations Analyst
-            </h3>
-            <h4
-              className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
-            >
-              
-            </h4>
-            <p data-aos="fade-right">
-            Bhawani Electronics            
+            Dixon Technologies      
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
