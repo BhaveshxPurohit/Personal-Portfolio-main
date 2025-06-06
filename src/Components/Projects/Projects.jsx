@@ -34,25 +34,25 @@ const ImageCarousel = ({ images }) => {
 
 // Project Data
 const projectData = [
-  {
-    title: "Cloud-Based ELT for Stock Data Management using Python",
-    description:
-      "This project harnesses Python and Alteryx for efficient data wrangling, coupled with a cloud-based ELT pipeline via Azure Functions, Logic Apps, and Azure Synapse Analytics for streamlined stock data handling.",
-    images: [
-      "/mnt/data/5416fe09-4497-45b1-9dbf-2453716572d9.png",
-      "/mnt/data/8948a92a-68ea-4664-a2b7-92a86e43d435.png",
-      "/mnt/data/492ea725-b10a-45e0-a035-ef16beb0aec8.png",
-    ],
-    icons: [
-      <FaPython key="python" />,
-      <SiAlteryx key="alteryx" />,
-      <SiAzurefunctions key="azurefunc" />,
-      <SiMicrosoftazure key="azure" />,
-      <SiPowerbi key="powerbi" />,
-    ],
-    link: "https://github.com/BhaveshxPurohit/Cloud-Based-ELT-for-Stock-Data-Management-using-Python.git",
-    category: "Cloud",
-  },
+{
+  title: "Cloud-Based ELT for Stock Data Management using Python",
+  description:
+    "This project harnesses Python and Alteryx for efficient data wrangling, coupled with a cloud-based ELT pipeline via Azure Functions, Logic Apps, and Azure Synapse Analytics for streamlined stock data handling.",
+  images: [
+    "https://github.com/user-attachments/assets/90814de4-4e42-4201-afe3-d190d2ff3bc8",
+    "https://github.com/user-attachments/assets/d0f9b085-7ea9-4c5b-b777-425d9a9e8c04",
+    "https://github.com/user-attachments/assets/1aec262e-8a7c-4599-acc2-7e90772dcbc1",
+  ],
+  icons: [
+    <FaPython key="python" />,
+    <SiAlteryx key="alteryx" />,
+    <SiAzurefunctions key="azurefunc" />,
+    <SiMicrosoftazure key="azure" />,
+    <SiPowerbi key="powerbi" />,
+  ],
+  link: "https://github.com/BhaveshxPurohit/Cloud-Based-ELT-for-Stock-Data-Management-using-Python.git",
+  category: "Cloud",
+},
   {
     title: "NLP Driven Insight into Spotify Usage",
     description:
