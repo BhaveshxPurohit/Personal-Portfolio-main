@@ -62,8 +62,8 @@ const projectData = [
     description:
       "This project predicts Urban Heat Islands using AI and satellite data, providing insights for sustainable cooling strategies.",
     images: [
-      "https://github.com/user-attachments/assets/16a49e6d-ce08-4071-85d3-06985999618e",
-    ],
+    "https://github.com/user-attachments/assets/16a49e6d-ce08-4071-85d3-06985999618e",
+  ],
     link: "https://github.com/BhaveshxPurohit/Cooling-Urban-Heat-Islands",
     category: "Data Science",
   },
