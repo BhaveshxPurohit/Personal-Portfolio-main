@@ -96,21 +96,23 @@ const projectData = [
   link: "https://github.com/BhaveshxPurohit/Cooling-Urban-Heat-Islands",
   category: "Data Science",
 },
-  {
-    title: "EV Adoption and Incentives in New York State",
-    description:
-      "This dashboard tracks EV adoption, rebates, and charging infrastructure in NY to support data-driven policy design.",
-    images: [
-      "https://raw.githubusercontent.com/BhaveshxPurohit/EV-Adoption-and-Incentives-in-New-York-State/main/images/banner.jpg",
-    ],
-    icons: [
-      <FaPython key="python" />,
-      <SiTableau key="tableau" />,
-      <SiPowerbi key="powerbi" />,
-    ],
-    link: "https://github.com/BhaveshxPurohit/EV-Adoption-and-Incentives-in-New-York-State",
-    category: "Dashboards",
-  },
+{
+  title: "EV Adoption and Incentives in New York State",
+  description:
+    "This dashboard tracks EV adoption, rebates, and charging infrastructure in NY to support data-driven policy design.",
+  images: [
+    "https://github.com/user-attachments/assets/76d3c845-e33f-4284-aa20-3264b6938e33",
+    "https://github.com/user-attachments/assets/1f446df0-ce8a-4214-97d9-d936c26faf8f",
+    "https://github.com/user-attachments/assets/805ab712-71a4-499e-9bab-944d639dec6c",
+  ],
+  icons: [
+    <FaPython key="python" />,
+    <SiTableau key="tableau" />,
+    <SiPowerbi key="powerbi" />,
+  ],
+  link: "https://github.com/BhaveshxPurohit/EV-Adoption-and-Incentives-in-New-York-State",
+  category: "Dashboards",
+},
   {
     title: "Optimizing ICU Management with Data Warehousing",
     description:
