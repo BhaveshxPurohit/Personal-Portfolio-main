@@ -22,10 +22,13 @@ export const Introduction = () => {
             <div className="introduction_datacontainer">
 
             <h4>
-            Hi, I’m Bhavesh Purohit, a data-driven problem solver with a passion for AI, machine learning, and cloud technologies. I thrive on transforming raw data into meaningful insights, building intelligent solutions that drive real-world impact.
-I hold a Master’s in Information Systems from Syracuse University and a Bachelor’s in Electronics and Telecommunication Engineering from the University of Mumbai. My academic journey has been a blend of software development, data science, and AI research, equipping me with a strong foundation in programming, analytics, and system architecture.
-With hands-on experience in data science, analytics, and software engineering, I’ve built AI-powered recommendation systems, predictive models, and large-scale ETL pipelines. From designing knowledge graphs to automating real-time data processing, I enjoy tackling complex challenges with Python, SQL, cloud platforms, and machine learning frameworks.
-Let’s connect and build something innovative together!
+            Hi, I'm Bhavesh Purohit, a Data Analyst with over 4 years of experience turning complex datasets into clear, actionable insights that drive business value. I specialize in SQL, Python, Power BI, and Tableau, and have a proven track record of improving decision-making across insurance, automotive, and manufacturing sectors.
+
+I’ve worked with top companies like Allstate, KPIT Technologies, and Dixon Technologies, where I built scalable ETL pipelines, automated reporting, and led end-to-end dashboard development that cut manual effort by 50%+ and improved visibility into KPIs like LTV, DAU/MAU, and claim efficiency.
+
+I hold my Master's degree in Information Systems from Syracuse University, I bring a strong blend of technical expertise and business acumen. My approach combines hands-on data engineering with impactful data storytelling to support product, marketing, and operations teams.
+
+Whether it's optimizing factory operations, detecting insurance fraud, or uncovering patterns in customer behavior, I’m passionate about solving problems with data.
             </h4>
               
 
