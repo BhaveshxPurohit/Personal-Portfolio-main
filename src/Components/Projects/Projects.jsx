@@ -9,12 +9,16 @@ import {
   SiMicrosoftazure,
   SiTableau,
   SiPowerbi,
+  SiGoogleearthengine,
+  SiOpencv,
 } from "react-icons/si";
 
 // Project Data
 const projectData = [
   {
     title: "Cloud-Based ELT for Stock Data Management using Python",
+    description:
+      "This project harnesses Python and Alteryx for efficient data wrangling, coupled with a cloud-based ELT pipeline via Azure Functions, Logic Apps, and Azure Synapse Analytics for streamlined stock data handling. This setup automates data extraction, and transformation, and updates notifications, while Synapse Pipelines facilitate data refreshes and resource optimization.",
     imgSrc:
       "https://raw.githubusercontent.com/BhaveshxPurohit/Cloud-Based-ELT-for-Stock-Data-Management-using-Python/main/Stock%20(1).jpg",
     icons: [
@@ -29,6 +33,8 @@ const projectData = [
   },
   {
     title: "NLP Driven Insight into Spotify Usage",
+    description:
+      "This project delves into user preferences, playlist creation, and track patterns to enrich music enjoyment. By uncovering insights, we aim to enhance the user experience and offer tailored recommendations, ultimately contributing to the dynamic landscape of digital music consumption.",
     imgSrc:
       "https://raw.githubusercontent.com/BhaveshxPurohit/NLP-Driven-Insights-into-Spotify-Usage/main/spotify%20(1).jpg",
     icons: [
@@ -41,10 +47,42 @@ const projectData = [
   },
   {
     title: "Energy Optimization for Peak Demand in South Carolina",
+    description:
+      "PowerSC aims to tackle the challenge of managing electricity demand in South Carolina and nearby areas during peak summer months, focusing on preventing blackouts without building new infrastructure. By analyzing detailed house data, hourly energy usage, and weather patterns, the project seeks to understand consumption drivers and promote energy conservation among customers, aligning operational efficiency with environmental sustainability.",
     imgSrc:
       "https://raw.githubusercontent.com/BhaveshxPurohit/Energy-Optimization-for-Peak-Demand-in-South-Carolina/main/energy.png",
     icons: [<SiRstudio key="rstudio" />],
     link: "https://github.com/BhaveshxPurohit/Energy-Optimization-for-Peak-Demand-in-South-Carolina.git",
+    category: "Dashboards",
+  },
+  {
+    title: "Cooling Urban Heat Islands – EY Open Science AI Challenge 2025",
+    description:
+      "This project predicts Urban Heat Islands (UHI) using AI and satellite data to identify hotspots, key contributors, and suggest sustainable urban cooling strategies. It uses temperature, satellite, and weather data integrated with ML models like XGBoost and TensorFlow, and visualizes results using Tableau and Power BI.",
+    imgSrc:
+      "https://raw.githubusercontent.com/BhaveshxPurohit/Cooling-Urban-Heat-Islands/main/images/banner.jpg",
+    icons: [
+      <FaPython key="python" />,
+      <SiTableau key="tableau" />,
+      <SiPowerbi key="powerbi" />,
+      <SiGoogleearthengine key="gee" />,
+      <SiOpencv key="opencv" />,
+    ],
+    link: "https://github.com/BhaveshxPurohit/Cooling-Urban-Heat-Islands",
+    category: "Data Science",
+  },
+  {
+    title: "EV Adoption and Incentives in New York State",
+    description:
+      "This project visualizes EV adoption, rebates, and charging infrastructure in NY using Tableau. It tracks policy impact, EV registration trends, infrastructure readiness, and provides recommendations for equitable EV growth across counties.",
+    imgSrc:
+      "https://raw.githubusercontent.com/BhaveshxPurohit/EV-Adoption-and-Incentives-in-New-York-State/main/images/banner.jpg",
+    icons: [
+      <FaPython key="python" />,
+      <SiTableau key="tableau" />,
+      <SiPowerbi key="powerbi" />,
+    ],
+    link: "https://github.com/BhaveshxPurohit/EV-Adoption-and-Incentives-in-New-York-State",
     category: "Dashboards",
   },
 ];
