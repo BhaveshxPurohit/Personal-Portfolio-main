@@ -17,6 +17,13 @@ const projectData = [
     title: "Cloud-Based ELT for Stock Data Management using Python",
     imgSrc:
       "https://raw.githubusercontent.com/BhaveshxPurohit/Cloud-Based-ELT-for-Stock-Data-Management-using-Python/main/Stock%20(1).jpg",
+    icons: [
+      <FaPython key="python" />,
+      <SiAlteryx key="alteryx" />,
+      <SiAzurefunctions key="azurefunc" />,
+      <SiMicrosoftazure key="azure" />,
+      <SiPowerbi key="powerbi" />,
+    ],
     link: "https://github.com/BhaveshxPurohit/Cloud-Based-ELT-for-Stock-Data-Management-using-Python.git",
     category: "Cloud",
   },
@@ -24,6 +31,11 @@ const projectData = [
     title: "NLP Driven Insight into Spotify Usage",
     imgSrc:
       "https://raw.githubusercontent.com/BhaveshxPurohit/NLP-Driven-Insights-into-Spotify-Usage/main/spotify%20(1).jpg",
+    icons: [
+      <FaPython key="python" />,
+      <SiJupyter key="jupyter" />,
+      <SiTableau key="tableau" />,
+    ],
     link: "https://github.com/BhaveshxPurohit/NLP-Driven-Insights-into-Spotify-Usage.git",
     category: "Data Science",
   },
@@ -31,6 +43,7 @@ const projectData = [
     title: "Energy Optimization for Peak Demand in South Carolina",
     imgSrc:
       "https://raw.githubusercontent.com/BhaveshxPurohit/Energy-Optimization-for-Peak-Demand-in-South-Carolina/main/energy.png",
+    icons: [<SiRstudio key="rstudio" />],
     link: "https://github.com/BhaveshxPurohit/Energy-Optimization-for-Peak-Demand-in-South-Carolina.git",
     category: "Dashboards",
   },
