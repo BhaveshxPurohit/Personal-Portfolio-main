@@ -15,8 +15,6 @@ import {
 const projectData = [
   {
     title: "Cloud-Based ELT for Stock Data Management using Python",
-    description:
-      "This project harnesses Python and Alteryx for efficient data wrangling, coupled with a cloud-based ELT pipeline via Azure Functions, Logic Apps, and Azure Synapse Analytics for streamlined stock data handling. This setup automates data extraction, and transformation, and updates notifications, while Synapse Pipelines facilitate data refreshes and resource optimization.",
     imgSrc:
       "https://raw.githubusercontent.com/BhaveshxPurohit/Cloud-Based-ELT-for-Stock-Data-Management-using-Python/main/Stock%20(1).jpg",
     icons: [
@@ -31,8 +29,6 @@ const projectData = [
   },
   {
     title: "NLP Driven Insight into Spotify Usage",
-    description:
-      "This project delves into user preferences, playlist creation, and track patterns to enrich music enjoyment. By uncovering insights, we aim to enhance the user experience and offer tailored recommendations, ultimately contributing to the dynamic landscape of digital music consumption.",
     imgSrc:
       "https://raw.githubusercontent.com/BhaveshxPurohit/NLP-Driven-Insights-into-Spotify-Usage/main/spotify%20(1).jpg",
     icons: [
@@ -45,8 +41,6 @@ const projectData = [
   },
   {
     title: "Energy Optimization for Peak Demand in South Carolina",
-    description:
-      "PowerSC aims to tackle the challenge of managing electricity demand in South Carolina and nearby areas during peak summer months, focusing on preventing blackouts without building new infrastructure. By analyzing detailed house data, hourly energy usage, and weather patterns, the project seeks to understand consumption drivers and promote energy conservation among customers, aligning operational efficiency with environmental sustainability.",
     imgSrc:
       "https://raw.githubusercontent.com/BhaveshxPurohit/Energy-Optimization-for-Peak-Demand-in-South-Carolina/main/energy.png",
     icons: [<SiRstudio key="rstudio" />],
