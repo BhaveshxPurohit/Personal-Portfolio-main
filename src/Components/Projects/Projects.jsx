@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Projects.css";
-import { FaPython } from "react-icons/fa";
+import { FaPython, FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import {
   SiRstudio,
   SiJupyter,
@@ -13,12 +13,36 @@ import {
   SiOpencv,
 } from "react-icons/si";
 
+// Image Carousel Component
+const ImageCarousel = ({ images }) => {
+  const [current, setCurrent] = useState(0);
+  const nextSlide = () => setCurrent((current + 1) % images.length);
+  const prevSlide = () => setCurrent((current - 1 + images.length) % images.length);
+
+  return (
+    <div className="carousel-container">
+      <img src={images[current]} alt={`slide-${current}`} className="carousel-img" />
+      {images.length > 1 && (
+        <>
+          <button className="arrow left" onClick={prevSlide}><FaArrowLeft /></button>
+          <button className="arrow right" onClick={nextSlide}><FaArrowRight /></button>
+        </>
+      )}
+    </div>
+  );
+};
+
 // Project Data
 const projectData = [
   {
     title: "Cloud-Based ELT for Stock Data Management using Python",
-    imgSrc:
-      "https://raw.githubusercontent.com/BhaveshxPurohit/Cloud-Based-ELT-for-Stock-Data-Management-using-Python/main/Stock%20(1).jpg",
+    description:
+      "This project harnesses Python and Alteryx for efficient data wrangling, coupled with a cloud-based ELT pipeline via Azure Functions, Logic Apps, and Azure Synapse Analytics for streamlined stock data handling.",
+    images: [
+      "/mnt/data/5416fe09-4497-45b1-9dbf-2453716572d9.png",
+      "/mnt/data/8948a92a-68ea-4664-a2b7-92a86e43d435.png",
+      "/mnt/data/492ea725-b10a-45e0-a035-ef16beb0aec8.png",
+    ],
     icons: [
       <FaPython key="python" />,
       <SiAlteryx key="alteryx" />,
@@ -31,8 +55,11 @@ const projectData = [
   },
   {
     title: "NLP Driven Insight into Spotify Usage",
-    imgSrc:
+    description:
+      "This project delves into user preferences, playlist creation, and track patterns to enrich music enjoyment.",
+    images: [
       "https://raw.githubusercontent.com/BhaveshxPurohit/NLP-Driven-Insights-into-Spotify-Usage/main/spotify%20(1).jpg",
+    ],
     icons: [
       <FaPython key="python" />,
       <SiJupyter key="jupyter" />,
@@ -43,16 +70,22 @@ const projectData = [
   },
   {
     title: "Energy Optimization for Peak Demand in South Carolina",
-    imgSrc:
+    description:
+      "PowerSC analyzes detailed house data, hourly energy usage, and weather patterns to help prevent blackouts.",
+    images: [
       "https://raw.githubusercontent.com/BhaveshxPurohit/Energy-Optimization-for-Peak-Demand-in-South-Carolina/main/energy.png",
+    ],
     icons: [<SiRstudio key="rstudio" />],
     link: "https://github.com/BhaveshxPurohit/Energy-Optimization-for-Peak-Demand-in-South-Carolina.git",
     category: "Dashboards",
   },
   {
     title: "Cooling Urban Heat Islands – EY Open Science AI Challenge 2025",
-    imgSrc:
+    description:
+      "This project predicts Urban Heat Islands using AI and satellite data, providing insights for sustainable cooling strategies.",
+    images: [
       "https://raw.githubusercontent.com/BhaveshxPurohit/Cooling-Urban-Heat-Islands/main/images/banner.jpg",
+    ],
     icons: [
       <FaPython key="python" />,
       <SiTableau key="tableau" />,
@@ -65,8 +98,11 @@ const projectData = [
   },
   {
     title: "EV Adoption and Incentives in New York State",
-    imgSrc:
+    description:
+      "This dashboard tracks EV adoption, rebates, and charging infrastructure in NY to support data-driven policy design.",
+    images: [
       "https://raw.githubusercontent.com/BhaveshxPurohit/EV-Adoption-and-Incentives-in-New-York-State/main/images/banner.jpg",
+    ],
     icons: [
       <FaPython key="python" />,
       <SiTableau key="tableau" />,
@@ -77,8 +113,11 @@ const projectData = [
   },
   {
     title: "Optimizing ICU Management with Data Warehousing",
-    imgSrc:
+    description:
+      "This project builds a data warehouse using Snowflake & dbt to streamline ICU patient data for hospital management.",
+    images: [
       "https://raw.githubusercontent.com/BhaveshxPurohit/Optimizing-ICU-Management-with-Data-Warehousing/main/images/banner.jpg",
+    ],
     icons: [
       <FaPython key="python" />,
       <SiPowerbi key="powerbi" />,
@@ -89,7 +128,6 @@ const projectData = [
   },
 ];
 
-// Categories
 const categories = ["All", "Cloud", "Data Science", "Dashboards", "Data Warehouse"];
 
 export const Projects = () => {
@@ -121,9 +159,7 @@ export const Projects = () => {
           <div className="projects_container" key={index}>
             <div className="project">
               <div className="project_videocontainer">
-                <div>
-                  <img src={proj.imgSrc} alt={proj.title} />
-                </div>
+                <ImageCarousel images={proj.images} />
               </div>
               <div className="project_information">
                 <h2>{proj.title}</h2>
