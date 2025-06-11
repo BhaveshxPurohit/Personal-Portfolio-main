@@ -86,7 +86,7 @@ export const About = () => {
           className="btnResume"
           onClick={() => {
             window.open(
-              "https://drive.google.com/file/d/1X0bz7-yO6Jl3EIrn1-v-Ubp6FLJvEOqB/view?usp=sharing"
+              "https://drive.google.com/file/d/1pYUJTOL2OmdBBVGMweo2Y_DWzfYxeyD5/view?usp=sharing"
             );
           }}
         >
