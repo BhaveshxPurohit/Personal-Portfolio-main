@@ -22,13 +22,11 @@ export const Introduction = () => {
             <div className="introduction_datacontainer">
 
             <h4>
-            Hi, I'm Bhavesh Purohit, a Data Analyst with over 4 years of experience turning complex datasets into clear, actionable insights that drive business value. I specialize in SQL, Python, Power BI, and Tableau, and have a proven track record of improving decision-making across insurance, automotive, and manufacturing sectors.
+            I'm Bhavesh Purohit, a results-driven Data & BI Analyst with 4 years of hands-on experience transforming raw data into actionable business insights across the insurance and automotive industry. I specialize in SQL, Python, Power BI, and Snowflake, with a strong focus on building scalable ETL pipelines, automating reporting, and enabling data-informed decisions.
 
-I’ve worked with top companies like Allstate, KPIT Technologies, and Dixon Technologies, where I built scalable ETL pipelines, automated reporting, and led end-to-end dashboard development that cut manual effort by 50%+ and improved visibility into KPIs like LTV, DAU/MAU, and claim efficiency.
+At Allstate, I uncovered a $4.2M claims overrun using Python and SQL and built automated data pipelines with PySpark and dbt. At KPIT, I scaled dashboarding for automotive clients and saved 30+ hours/month through ETL automation with Informatica, SSIS, and Power Automate.
 
-I hold my Master's degree in Information Systems from Syracuse University, I bring a strong blend of technical expertise and business acumen. My approach combines hands-on data engineering with impactful data storytelling to support product, marketing, and operations teams.
-
-Whether it's optimizing factory operations, detecting insurance fraud, or uncovering patterns in customer behavior, I’m passionate about solving problems with data.
+With a Master’s in Information Systems from Syracuse University, I bring a blend of technical expertise and business acumen, always striving to make data more accessible, insightful, and impactful for stakeholders.
             </h4>
               
 
