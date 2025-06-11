@@ -22,9 +22,11 @@ export const Introduction = () => {
             <div className="introduction_datacontainer">
 
             <h4>
-            I'm Bhavesh Purohit, a results-driven Data & BI Analyst with 4 years of hands-on experience transforming raw data into actionable business insights across the insurance and automotive industry. I specialize in SQL, Python, Power BI, and Snowflake, with a strong focus on building scalable ETL pipelines, automating reporting, and enabling data-informed decisions.
+            I'm Bhavesh Purohit, a data analyst with 3.5 years of experience turning raw datasets into actionable insights. My expertise lies in building scalable data pipelines, conducting in-depth statistical analysis, and developing interactive dashboards using tools like Power BI, Looker, and Tableau.
 
-At Allstate, I uncovered a $4.2M claims overrun using Python and SQL and built automated data pipelines with PySpark and dbt. At KPIT, I scaled dashboarding for automotive clients and saved 30+ hours/month through ETL automation with Informatica, SSIS, and Power Automate.
+At CLAB AI, I worked on a national education platform where I automated data ingestion from AWS S3 to Neo4j, streamlined workflows using Apache Airflow and Spark, and empowered 90+ schools with insight-driven dashboards. Before that, at KPIT Technologies, I led reporting automation for global automotive clients using SQL, Alteryx, and Azure Databricks, reducing data delivery time by over 35%.
+
+I'm also skilled in ETL tools like Informatica and SSIS, and experienced in documenting pipelines and workflows using Confluence and Power Automate, ensuring clarity and continuity across teams.
 
 With a Master’s in Information Systems from Syracuse University, I bring a blend of technical expertise and business acumen, always striving to make data more accessible, insightful, and impactful for stakeholders.
             </h4>
