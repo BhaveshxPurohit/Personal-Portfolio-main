@@ -125,14 +125,14 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Business Intelligence Analyst
+              Data Analyst
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
               <p>
-              Allstate Insurance Company
+              CLAB AI
                </p>
             </h4>
           </VerticalTimelineElement>
