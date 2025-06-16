@@ -33,7 +33,7 @@ export const Timeline = () => {
         <VerticalTimeline lineColor={linecolor}>
 
            <VerticalTimelineElement
-            date={"Aug 2023 - May 2025"}
+            date={"Jun 2025 - Present"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -49,24 +49,24 @@ export const Timeline = () => {
               backgroundColor: `var(--clr-bg)`,
               color: `var(--clr-primary)`,
             }}
-            icon={<SchoolIcon />}
+            icon={<WorkIcon />}
           >
             <h3
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Student
+              Reserach Analyst
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Syracuse University
+              
             </h4>
             <p data-aos="fade-right">
-              Master of Science in Information Systems
+            Syracuse University           
             </p>
-          </VerticalTimelineElement>          
+          </VerticalTimelineElement>
           <VerticalTimelineElement
             date={"Feb 2025 - Apr 2025"}
             contentStyle={{
@@ -169,6 +169,41 @@ export const Timeline = () => {
               CLAB AI
                </p>
             </h4>
+          </VerticalTimelineElement>
+                    <VerticalTimelineElement
+            date={"Aug 2023 - May 2025"}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              border: "3px solid var(--clr-primary)",
+              backgroundColor: `var(--clr-bg)`,
+              textAlign: "center",
+              color: `var(--clr-fg-alt)`,
+            }}
+            contentArrowStyle={{
+              borderRight: "16px solid  var(--clr-primary)",
+            }}
+            iconStyle={{
+              border: ` 3px solid var(--clr-primary)`,
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+            icon={<SchoolIcon />}
+          >
+            <h3
+              className="vertical-timeline-element-title"
+              data-aos="fade-right"
+            >
+              Student
+            </h3>
+            <h4
+              className="vertical-timeline-element-subtitle"
+              data-aos="fade-right"
+            >
+              Syracuse University
+            </h4>
+            <p data-aos="fade-right">
+              Master of Science in Information Systems
+            </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             date={"Jul 2022 - Jun 2023"}
