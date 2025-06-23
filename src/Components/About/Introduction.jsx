@@ -19,16 +19,16 @@ export const Introduction = () => {
           </div>
           <div className="introduction_datacontainer">
             <p>
-              Hi, I’m <strong>Bhavesh Purohit</strong> — the guy companies call when their data is a mess, dashboards are outdated, and insights are nowhere to be found.
+              Hi, I’m <strong>Bhavesh Purohit</strong>  the guy companies call when their data is a mess, dashboards are outdated, and insights are nowhere to be found.
             </p>
             <p>
-              With <strong>4.5+ years</strong> of experience turning chaotic datasets into clean, decision-ready intelligence, I don’t just build reports — I build automated ecosystems that scale. I’ve sliced through 10M+ records in PySpark, deployed dbt models in Snowflake, visualized spikes in delinquency at PNC, and built dashboards that actually get used (yes, really).
+              With <strong>4.5+ years</strong> of experience turning chaotic datasets into clean, decision-ready intelligence, I don’t just build reports, I build automated ecosystems that scale. I’ve sliced through 10M+ records in PySpark, deployed dbt models in Snowflake, visualized spikes in delinquency at PNC, and built dashboards that actually get used (yes, really).
             </p>
             <p>
-              I’ve helped secure <strong>$500K+ in research funding</strong>, delivered <strong>$2M in operational savings</strong>, and caught bugs in EV sensor data that even the machines missed. Whether it's Redshift pipelines, Power BI dashboards, or ML-driven tweet bots — I bring the tech, the speed, and the results — minus the fluff.
+              I’ve helped secure <strong>$500K+ in research funding</strong>, delivered <strong>$2M in operational savings</strong>, and caught bugs in EV sensor data that even the machines missed. Whether it's Redshift pipelines, Power BI dashboards, or ML-driven tweet bots, I bring the tech, the speed, and the results, minus the fluff.
             </p>
             <p>
-              If you want dashboards that bite, data pipelines that don’t break, and insights that speak for themselves — you know where to find me.
+              If you want dashboards that bite, data pipelines that don’t break, and insights that speak for themselves, you know where to find me.
             </p>
           </div>
         </div>
