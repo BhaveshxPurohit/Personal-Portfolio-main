@@ -68,7 +68,7 @@ export const Timeline = () => {
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            date={"Feb 2025 - Apr 2025"}
+            date={"Jan 2025 - Jun 2025"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -90,7 +90,7 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Graduate Reserach Analyst
+              Financial Data Analyst
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
@@ -99,7 +99,7 @@ export const Timeline = () => {
               
             </h4>
             <p data-aos="fade-right">
-            Nexis Student Technology LAB            
+            PNC Financial Services           
             </p>
           </VerticalTimelineElement>
            <VerticalTimelineElement
@@ -125,7 +125,7 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Data Analyst
+              Data Analytics Engineer
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
@@ -136,41 +136,7 @@ export const Timeline = () => {
                </p>
             </h4>
           </VerticalTimelineElement>
-                    <VerticalTimelineElement
-            date={"Jun 2024 - Aug 2024"}
-            contentStyle={{
-              boxShadow: `var(--shadow)`,
-              border: "3px solid var(--clr-primary)",
-              backgroundColor: `var(--clr-bg)`,
-              textAlign: "center",
-              color: `var(--clr-fg-alt)`,
-            }}
-            contentArrowStyle={{
-              borderRight: "16px solid  var(--clr-primary)",
-            }}
-            iconStyle={{
-              border: ` 3px solid var(--clr-primary)`,
-              backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`,
-            }}
-            icon={<WorkIcon />}
-          >
-            <h3
-              className="vertical-timeline-element-title"
-              data-aos="fade-right"
-            >
-              Data Analyst Intern
-            </h3>
-            <h4
-              className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
-            >
-              <p>
-              CLAB AI
-               </p>
-            </h4>
-          </VerticalTimelineElement>
-                    <VerticalTimelineElement
+          <VerticalTimelineElement
             date={"Aug 2023 - May 2025"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
@@ -206,7 +172,7 @@ export const Timeline = () => {
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            date={"Jul 2022 - Jun 2023"}
+            date={"Sep 2021 - May 2023"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -228,7 +194,7 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Business Data Analyst 
+              Data Analyst 
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
@@ -240,41 +206,7 @@ export const Timeline = () => {
             </h4>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            date={"Oct 2020 - Jun 2022"}
-            contentStyle={{
-              boxShadow: `var(--shadow)`,
-              border: "3px solid var(--clr-primary)",
-              backgroundColor: `var(--clr-bg)`,
-              textAlign: "center",
-              color: `var(--clr-fg-alt)`,
-            }}
-            contentArrowStyle={{
-              borderRight: "16px solid  var(--clr-primary)",
-            }}
-            iconStyle={{
-              border: ` 3px solid var(--clr-primary)`,
-              backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`,
-            }}
-            icon={<WorkIcon />}
-          >
-            <h3
-              className="vertical-timeline-element-title"
-              data-aos="fade-right"
-            >
-              Data Analyst Co-Op
-            </h3>
-            <h4
-              className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
-            >
-              <p>
-              KPIT Technologies
-               </p>
-            </h4>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            date={"Jul 2020 - Sep 2020"}
+            date={"Jun 2021 - Aug 2021"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -304,6 +236,40 @@ export const Timeline = () => {
             >
               <p>
               KPIT Technologies
+               </p>
+            </h4>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            date={"Jan 2020 - May 2021"}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              border: "3px solid var(--clr-primary)",
+              backgroundColor: `var(--clr-bg)`,
+              textAlign: "center",
+              color: `var(--clr-fg-alt)`,
+            }}
+            contentArrowStyle={{
+              borderRight: "16px solid  var(--clr-primary)",
+            }}
+            iconStyle={{
+              border: ` 3px solid var(--clr-primary)`,
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+            icon={<WorkIcon />}
+          >
+            <h3
+              className="vertical-timeline-element-title"
+              data-aos="fade-right"
+            >
+              Operations Data Analyst
+            </h3>
+            <h4
+              className="vertical-timeline-element-subtitle"
+              data-aos="fade-right"
+            >
+              <p>
+              Bhawani Electronics
                </p>
             </h4>
           </VerticalTimelineElement>
