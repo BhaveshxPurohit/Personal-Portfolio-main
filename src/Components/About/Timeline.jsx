@@ -68,7 +68,7 @@ export const Timeline = () => {
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            date={"Jan 2025 - Jun 2025"}
+            date={"Jan 2025 - May 2025"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -90,7 +90,7 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Financial Data Analyst
+              AI Reseracher 
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
@@ -99,7 +99,7 @@ export const Timeline = () => {
               
             </h4>
             <p data-aos="fade-right">
-            PNC Financial Services           
+            Nexis Student Technology LAB      
             </p>
           </VerticalTimelineElement>
            <VerticalTimelineElement
@@ -125,7 +125,7 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Data Analytics Engineer
+              Data Analyst
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
@@ -194,53 +194,19 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Data Analyst 
+              System Engineer
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
               <p>
-              KPIT Technologies
+              Saint-Gobain
                </p>
             </h4>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            date={"Jun 2021 - Aug 2021"}
-            contentStyle={{
-              boxShadow: `var(--shadow)`,
-              border: "3px solid var(--clr-primary)",
-              backgroundColor: `var(--clr-bg)`,
-              textAlign: "center",
-              color: `var(--clr-fg-alt)`,
-            }}
-            contentArrowStyle={{
-              borderRight: "16px solid  var(--clr-primary)",
-            }}
-            iconStyle={{
-              border: ` 3px solid var(--clr-primary)`,
-              backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`,
-            }}
-            icon={<WorkIcon />}
-          >
-            <h3
-              className="vertical-timeline-element-title"
-              data-aos="fade-right"
-            >
-              Data Analyst Intern
-            </h3>
-            <h4
-              className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
-            >
-              <p>
-              KPIT Technologies
-               </p>
-            </h4>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            date={"Jan 2020 - May 2021"}
+            date={"Jul 2020 - Jun 2022"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
