@@ -19,16 +19,16 @@ export const Introduction = () => {
           </div>
           <div className="introduction_datacontainer">
             <p>
-              Hi, I’m <strong>Bhavesh Purohit</strong>  the guy companies call when their data is a mess, dashboards are outdated, and insights are nowhere to be found.
+              Hi, I’m Bhavesh, a data and BI analyst with 4.5+ years of industry and academic experience transforming raw data into insights. I specialize in Python, SQL, Power BI, Snowflake, and Excel, and I’ve built analytics solutions that optimized operations and influenced multimillion-dollar decisions.
             </p>
             <p>
-              With <strong>4.5+ years</strong> of experience turning chaotic datasets into clean, decision-ready intelligence, I don’t just build reports, I build automated ecosystems that scale. I’ve sliced through 10M+ records in PySpark, deployed dbt models in Snowflake, visualized spikes in delinquency at PNC, and built dashboards that actually get used (yes, really).
+              🚀 I’m passionate about simplifying complex datasets and enabling smarter business moves, especially within fintech, edtech, and retail domains. I’m looking for a full-time data analyst or analytics engineer role where I can contribute my technical expertise and problem-solving mindset.
             </p>
             <p>
-              I’ve helped secure <strong>$500K+ in research funding</strong>, delivered <strong>$2M in operational savings</strong>, and caught bugs in EV sensor data that even the machines missed. Whether it's Redshift pipelines, Power BI dashboards, or ML-driven tweet bots, I bring the tech, the speed, and the results, minus the fluff.
+             ⚙️ Tech Stack: Python, SQL, Power BI, Excel, Snowflake, R, dbt, Apache Airflow, Alteryx
             </p>
             <p>
-              If you want dashboards that bite, data pipelines that don’t break, and insights that speak for themselves, you know where to find me.
+              📍Open to remote or hybrid roles across the U.S.
             </p>
           </div>
         </div>
