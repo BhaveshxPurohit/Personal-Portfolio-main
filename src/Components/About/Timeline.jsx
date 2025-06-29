@@ -172,7 +172,7 @@ export const Timeline = () => {
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            date={"Sep 2021 - May 2023"}
+            date={"Sep 2020 - May 2023"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -206,7 +206,7 @@ export const Timeline = () => {
             </h4>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            date={"Jun 2021 - Aug 2021"}
+            date={"Jun 2020 - Aug 2020"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -240,7 +240,7 @@ export const Timeline = () => {
             </h4>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            date={"Jan 2020 - May 2021"}
+            date={"Jan 2020 - May 2020"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
