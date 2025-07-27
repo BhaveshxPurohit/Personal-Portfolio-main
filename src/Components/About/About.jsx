@@ -84,7 +84,7 @@ export const About = () => {
         </div>
       <Introduction />
       <Timeline />
-      <section id="#skills">
+      <section id="skills">
         <Techstacks />
       </section>
       );
