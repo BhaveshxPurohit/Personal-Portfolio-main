@@ -82,17 +82,6 @@ export const About = () => {
             <LinkedInIcon />
           </a>
         </div>
-        <button
-          className="btnResume"
-          onClick={() => {
-            window.open(
-              "https://drive.google.com/file/d/1ha8jDhhgbXj3w7vV10uuoVr_DV7FKASd/view?usp=sharing"
-            );
-          }}
-        >
-          Resume
-        </button>
-      </div>
       <Introduction />
       <Timeline />
       <section id="#skills">
