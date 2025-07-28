@@ -54,7 +54,7 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Business Intelligence Developer
+              Data Analyst Associate
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
@@ -123,7 +123,7 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Data Visualization Analyst
+              Business Intelligence Analyst
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
@@ -157,7 +157,7 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Data Analyst - Digital Transformation
+              Data Analytics Consultant
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
