@@ -32,7 +32,7 @@ export const Timeline = () => {
         </h2>
         <VerticalTimeline lineColor={linecolor}>
                     <VerticalTimelineElement
-            date={"Jan 2025 - May 2025"}
+            date={"Jun 2024 - May 2025"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -54,7 +54,7 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Financial Data Analyst
+              Credit Risk Data Analyst Co-Op
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
@@ -62,40 +62,6 @@ export const Timeline = () => {
             >
               <p>
               PNC Financial Services
-               </p>
-            </h4>
-          </VerticalTimelineElement>
-            <VerticalTimelineElement
-            date={"Jun 2024 - Dec 2024"}
-            contentStyle={{
-              boxShadow: `var(--shadow)`,
-              border: "3px solid var(--clr-primary)",
-              backgroundColor: `var(--clr-bg)`,
-              textAlign: "center",
-              color: `var(--clr-fg-alt)`,
-            }}
-            contentArrowStyle={{
-              borderRight: "16px solid  var(--clr-primary)",
-            }}
-            iconStyle={{
-              border: ` 3px solid var(--clr-primary)`,
-              backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`,
-            }}
-            icon={<WorkIcon />}
-          >
-            <h3
-              className="vertical-timeline-element-title"
-              data-aos="fade-right"
-            >
-              Data Analytics Engineer
-            </h3>
-            <h4
-              className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
-            >
-              <p>
-              CLAB AI
                </p>
             </h4>
           </VerticalTimelineElement>
@@ -134,8 +100,9 @@ export const Timeline = () => {
               Master of Science in Information Systems
             </p>
           </VerticalTimelineElement>
-          <VerticalTimelineElement
-            date={"Sep 2021 - May 2023"}
+          
+            <VerticalTimelineElement
+            date={"Aug 2022 - Jul 2023"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -157,19 +124,19 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Data Analyst
+              Operations Data Analyst
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
               <p>
-              KPIT Technologies
+              Saint-Gobain
                </p>
             </h4>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            date={"Jun 2021 - Aug 2021"}
+            date={"Jun 2020 - May 2022"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -191,7 +158,7 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Data Analyst Intern
+              Data Analyst Consultant 
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
@@ -203,7 +170,7 @@ export const Timeline = () => {
             </h4>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            date={"Jan 2020 - May 2021"}
+            date={"Jan 2020 - May 2020"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
