@@ -123,7 +123,7 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Business Data Analyst 
+              Business Intelligence & Data Analyst 
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
