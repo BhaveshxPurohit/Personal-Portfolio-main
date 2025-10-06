@@ -31,7 +31,7 @@ export const Timeline = () => {
           My <span className="different">Timeline 💫</span>
         </h2>
         <VerticalTimeline lineColor={linecolor}>
-                    <VerticalTimelineElement
+         <VerticalTimelineElement
             date={"Jan 2025 - Present"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
@@ -133,8 +133,6 @@ export const Timeline = () => {
               Goldman Sachs
                </p>
             </h4>
-          </VerticalTimelineElement>
-      
           </VerticalTimelineElement>
           <VerticalTimelineElement
             date={"Jan 2020 - May 2020"}
