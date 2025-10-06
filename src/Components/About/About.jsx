@@ -18,11 +18,7 @@ export const About = () => {
         </h1>
         <Type />
         <p className="about__desc" data-aos="fade-right">
-          Passionate data enthusiast skilled in uncovering insights and presenting
-          them in clear, compelling ways for non-technical audiences. Excelling in
-          big data exploration and machine learning, always eager to learn and adapt
-          to new technologies. I see data as a playground for innovation and enjoy
-          predicting trends and discovering correlations.
+          Passionate Software Engineer who loves solving complex problems and turning ideas into impactful, real-world solutions. With hands-on experience in building scalable web applications, designing robust backend systems, and deploying cloud-native solutions, I enjoy working at the intersection of technology and innovation.
         </p>
         <div className="about__contact center">
           <a
@@ -35,7 +31,7 @@ export const About = () => {
             <GitHubIcon />
           </a>
           <a
-            href="mailto:bhaveshpurohiit@gmail.com"
+            href="mailto:bhaveshhpurohit@gmail.com"
             target="_blank"
             rel="noreferrer"
             aria-label="mail"
@@ -44,7 +40,7 @@ export const About = () => {
             <EmailIcon />
           </a>
           <a
-            href="tel:+1 680-356-8409"
+            href="tel:+1 315-496-8715"
             target="_blank"
             rel="noreferrer"
             aria-label="phone"
@@ -53,7 +49,7 @@ export const About = () => {
             <PhoneIcon />
           </a>
           <a
-            href="https://www.linkedin.com/in/bhavesh-purohit-56354b173/"
+            href="https://www.linkedin.com/in/purohitbhavesh/"
             aria-label="linkedin"
             target="_blank"
             rel="noreferrer"
