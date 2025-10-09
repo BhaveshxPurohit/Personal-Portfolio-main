@@ -1,9 +1,32 @@
 import React from "react";
 import "./Techstacks.css";
-// Correctly updated import statements for each technology
-import { SiPython, SiRstudio, SiSnowflake, SiTableau, SiPowerbi, SiMicrosoftazure, SiDatabricks, SiAlteryx, SiApacheairflow } from "react-icons/si";
-import { PiFileSql, PiMicrosoftExcelLogoFill } from "react-icons/pi";
-import { FaAws } from "react-icons/fa";
+
+// Icons for each technology
+import {
+  SiPython,
+  SiJavascript,
+  SiTypescript,
+  SiCplusplus,
+  SiDjango,
+  SiFlask,
+  SiReact,
+  SiNextdotjs,
+  SiNodedotjs,
+  SiSpringboot,
+  SiAmazonaws,
+  SiGooglecloud,
+  SiMicrosoftazure,
+  SiDocker,
+  SiKubernetes,
+  SiJenkins,
+  SiGitlab,
+  SiTerraform,
+  SiMysql,
+  SiPostgresql,
+  SiMongodb,
+  SiOracle
+} from "react-icons/si";
+import { PiFileSql } from "react-icons/pi";
 
 export const Techstacks = () => {
   return (
@@ -11,53 +34,107 @@ export const Techstacks = () => {
       <div className="section main" data-aos="fade-right">
         <h2 className="section__title different">Skills</h2>
         <div className="techsection">
+
+          {/* Languages */}
           <div>
             <SiPython />
             <h5>Python</h5>
           </div>
           <div>
-            <SiRstudio />
-            <h5>R</h5>
+            <SiJavascript />
+            <h5>JavaScript</h5>
+          </div>
+          <div>
+            <SiTypescript />
+            <h5>TypeScript</h5>
+          </div>
+          <div>
+            <SiCplusplus />
+            <h5>C++</h5>
           </div>
           <div>
             <PiFileSql />
             <h5>SQL</h5>
           </div>
+
+          {/* Frameworks & Libraries */}
           <div>
-            <SiSnowflake />
-            <h5>Snowflake</h5>
+            <SiDjango />
+            <h5>Django</h5>
           </div>
           <div>
-            <SiTableau />
-            <h5>Tableau</h5>
+            <SiFlask />
+            <h5>Flask</h5>
           </div>
           <div>
-            <SiPowerbi />
-            <h5>Power BI</h5>
+            <SiReact />
+            <h5>React.js</h5>
           </div>
           <div>
-            <PiMicrosoftExcelLogoFill />
-            <h5>Microsoft Excel</h5>
+            <SiNextdotjs />
+            <h5>Next.js</h5>
           </div>
           <div>
-            <FaAws />
-            <h5>Amazon Web Service</h5>
+            <SiNodedotjs />
+            <h5>Node.js</h5>
+          </div>
+          <div>
+            <SiSpringboot />
+            <h5>Spring Boot</h5>
+          </div>
+
+          {/* Cloud & Infrastructure */}
+          <div>
+            <SiAmazonaws />
+            <h5>AWS</h5>
+          </div>
+          <div>
+            <SiGooglecloud />
+            <h5>GCP</h5>
           </div>
           <div>
             <SiMicrosoftazure />
-            <h5>Microsoft Azure</h5>
+            <h5>Azure</h5>
+          </div>
+
+          {/* DevOps & Tools */}
+          <div>
+            <SiDocker />
+            <h5>Docker</h5>
           </div>
           <div>
-            <SiDatabricks />
-            <h5>Databricks</h5>
+            <SiKubernetes />
+            <h5>Kubernetes</h5>
           </div>
           <div>
-            <SiAlteryx />
-            <h5>Alteryx</h5>
+            <SiJenkins />
+            <h5>Jenkins</h5>
           </div>
           <div>
-            <SiApacheairflow />
-            <h5>Apache Airflow</h5>
+            <SiGitlab />
+            <h5>GitLab CI</h5>
+          </div>
+          <div>
+            <SiTerraform />
+            <h5>Terraform</h5>
+          </div>
+
+          {/* Databases */}
+          <div>
+            <SiMysql />
+            <h5>MySQL</h5>
+          </div>
+          <div>
+            <SiPostgresql />
+            <h5>PostgreSQL</h5>
+          </div>
+          <div>
+            <SiMongodb />
+            <h5>MongoDB</h5>
+          </div>
+          <div>
+            <SiOracle />
+            <h5>Oracle</h5>
           </div>
         </div>
       </div>
