@@ -56,7 +56,7 @@
 }
 
 .project_information > div:nth-child(3) {
-  margin-top: 0.5em;
+  margin-top: 1.5em;
   display: flex;
   justify-content: center;
   gap: 1rem;
