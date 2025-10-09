@@ -128,7 +128,7 @@ export const Projects = () => {
               <div className="project_information">
                 <h2>{proj.title}</h2>
                 <p>{proj.description}</p>
-                <div>
+                <div className="view-code-container">
                   <a href={proj.link} target="_blank" rel="noreferrer">
                     <span className="btns onbt">View Code</span>
                   </a>
