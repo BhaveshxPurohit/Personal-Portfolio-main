@@ -135,7 +135,7 @@ export const Timeline = () => {
             </h4>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            date={"Jan 2020 - May 2020"}
+            date={"May 2020 - Jul 2020"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -157,7 +157,7 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Operations Data Analyst
+              Web Development Intern
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
