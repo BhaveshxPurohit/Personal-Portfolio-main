@@ -21,7 +21,7 @@ export const Contact = () => {
             data-aos="fade-right"
           >
             <a
-              href="https://www.linkedin.com/in/bhavesh-purohit-56354b173/"
+              href="https://www.linkedin.com/in/purohitbhavesh/"
               target="_blank"
               rel="noreferrer"
             >
@@ -35,13 +35,13 @@ export const Contact = () => {
               <VscGithub className="github" />
             </a>
             <a
-              href="mailto:bhaveshpurohiit@gmail.com"
+              href="mailto:bhaveshhpurohit@gmail.com"
               target="_blank"
               rel="noreferrer"
             >
               <CgMail className="email" />
             </a>
-            <a href="tel:+16803568409" target="_blank" rel="noreferrer">
+            <a href="tel:+13154968715" target="_blank" rel="noreferrer">
               <BsFillTelephoneFill className="phone" />
             </a>
           </div>
@@ -51,7 +51,7 @@ export const Contact = () => {
                 <CgMail className="email" />
               </span>
               <span>
-                <p>bhaveshpurohiit@gmail.com</p>
+                <p>bhaveshhpurohit@gmail.com</p>
               </span>
             </div>
             <div className="iconsCont">
@@ -59,7 +59,7 @@ export const Contact = () => {
                 <BsFillTelephoneFill className="phone" />
               </span>
               <span>
-                <p>+1 680-356-8409</p>
+                <p>+1 315-496-8715</p>
               </span>
             </div>
           </div>
