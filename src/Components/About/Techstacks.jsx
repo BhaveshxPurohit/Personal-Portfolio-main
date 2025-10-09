@@ -24,7 +24,8 @@ import {
   SiMysql,
   SiPostgresql,
   SiMongodb,
-  SiOracle
+  SiOracle,
+  SiApachekafka
 } from "react-icons/si";
 import { PiFileSql } from "react-icons/pi";
 
@@ -95,6 +96,10 @@ export const Techstacks = () => {
           <div>
             <SiMicrosoftazure />
             <h5>Azure</h5>
+          </div>
+          <div>
+            <SiApachekafka />
+            <h5>Apache Kafka</h5>
           </div>
 
           {/* DevOps & Tools */}
