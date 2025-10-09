@@ -24,9 +24,9 @@ const ImageCarousel = ({ images }) => {
 // Project Data
 const projectData = [
   {
-    title: "Cloud-Based ELT for Stock Data Management using Python",
+    title: "StockStream",
     description:
-      "This project harnesses Python and Alteryx for efficient data wrangling, coupled with a cloud-based ELT pipeline via Azure Functions, Logic Apps, and Azure Synapse Analytics for streamlined stock data handling.",
+      "The project implements a cloud-native ELT pipeline that integrates Python and Alteryx with Azure Functions, Logic Apps, and Synapse Analytics to automate stock data processing, transformation, and storage for scalable financial analytics.",
     images: [
       "https://github.com/user-attachments/assets/90814de4-4e42-4201-afe3-d190d2ff3bc8",
       "https://github.com/user-attachments/assets/d0f9b085-7ea9-4c5b-b777-425d9a9e8c04",
@@ -36,9 +36,9 @@ const projectData = [
     category: "Data Analytics",
   },
   {
-    title: "NLP Driven Insight into Spotify Usage",
+    title: "TuneSense",
     description:
-      "This project delves into user preferences, playlist creation, and track patterns to enrich music enjoyment.",
+      "This project explores Spotify user preferences, playlist behavior, and track patterns using NLP and machine learning in Python. Leveraging REST APIs, pandas, NumPy, and visualization tools, it uncovers musical trends and enriches listener experience.",
     images: [
       "https://raw.githubusercontent.com/BhaveshxPurohit/NLP-Driven-Insights-into-Spotify-Usage/main/spotify%20(1).jpg",
     ],
@@ -46,9 +46,9 @@ const projectData = [
     category: "Data Analytics",
   },
   {
-    title: "EV Adoption and Incentives in New York State",
+    title: "Electrifying New York",
     description:
-      "This dashboard tracks EV adoption, rebates, and charging infrastructure in NY to support data-driven policy design.",
+      "This project analyzes EV adoption, rebate distribution, and charging infrastructure across New York State using Python, SQL, and Tableau. It delivers interactive dashboards supporting data-driven policy decisions and sustainable mobility planning.",
     images: [
       "https://github.com/user-attachments/assets/76d3c845-e33f-4284-aa20-3264b6938e33",
       "https://github.com/user-attachments/assets/1f446df0-ce8a-4214-97d9-d936c26faf8f",
@@ -58,9 +58,9 @@ const projectData = [
     category: "Data Analytics",
   },
   {
-    title: "Cooling Urban Heat Islands – EY Open Science AI Challenge 2025",
+    title: "Cooling Urban Heat Islands",
     description:
-      "This project predicts Urban Heat Islands using AI and satellite data, providing insights for sustainable cooling strategies.",
+      "This project leverages AI and satellite imagery to predict Urban Heat Islands, using Python, TensorFlow, and Snowflake for data processing and Google Earth Engine for spatial insights, supporting EY’s sustainable urban cooling initiatives.",
     images: [
     "https://github.com/user-attachments/assets/16a49e6d-ce08-4071-85d3-06985999618e",
   ],
@@ -68,9 +68,9 @@ const projectData = [
     category: "Data Science",
   },
   {
-    title: "Energy Optimization for Peak Demand in South Carolina",
+    title: "PowerSmart SC",
     description:
-      "PowerSC analyzes detailed house data, hourly energy usage, and weather patterns to help prevent blackouts.",
+      "PowerSmartSC is an interactive Shiny application that analyzes household data, hourly energy consumption, and weather patterns using R (tidyverse, xgboost) to predict peak demand and support blackout prevention through data-driven insights.",
     images: [
       "https://raw.githubusercontent.com/BhaveshxPurohit/Energy-Optimization-for-Peak-Demand-in-South-Carolina/main/energy.png",
     ],
@@ -78,9 +78,9 @@ const projectData = [
     category: "Data Science",
   },
   {
-    title: "Optimizing ICU Management with Data Warehousing",
+    title: "CarePulse",
     description:
-      "This project builds a data warehouse using Snowflake & dbt to streamline ICU patient data for hospital management.",
+      "This project develops a healthcare data warehouse using Snowflake, dbt, and SQL to centralize and streamline ICU patient information, enabling hospital management to monitor performance, optimize resources, and generate actionable insights through Power BI.",
     images: [
       "https://github.com/user-attachments/assets/7b33dd29-14fb-4187-87a2-011fead05ad6",
       "https://github.com/user-attachments/assets/ea96f5f3-9518-4be7-a9b0-f814ed6d06b0",
