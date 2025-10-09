@@ -84,7 +84,7 @@ const projectData = [
     description:
       "An interactive Shiny application that analyzes household data, hourly energy consumption, and weather patterns using R (tidyverse, xgboost) to predict peak demand and support blackout prevention through data-driven insights.",
     images: [
-      "https://raw.githubusercontent.com/BhaveshxPurohit/Energy-Optimization-for-Peak-Demand-in-South-Carolina/main/energy.png",
+      "https://raw.githubusercontent.com/BhaveshxPurohit/Energy-Optimization-for-Peak-Demand-in-South-Carolina/main/SMARTSC.png",
     ],
     link: "https://github.com/BhaveshxPurohit/Energy-Optimization-for-Peak-Demand-in-South-Carolina.git",
     category: "Data Science",
