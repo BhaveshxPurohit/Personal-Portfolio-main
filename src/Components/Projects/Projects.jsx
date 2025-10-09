@@ -57,6 +57,18 @@ const projectData = [
     link: "https://github.com/BhaveshxPurohit/EV-Adoption-and-Incentives-in-New-York-State",
     category: "Data Analytics",
   },
+    {
+    title: "CarePulse",
+    description:
+      "A healthcare data warehouse using Snowflake, dbt, and SQL to centralize and streamline ICU patient information, enabling hospital management to monitor performance, optimize resources, and generate actionable insights through Power BI.",
+    images: [
+      "https://github.com/user-attachments/assets/7b33dd29-14fb-4187-87a2-011fead05ad6",
+      "https://github.com/user-attachments/assets/ea96f5f3-9518-4be7-a9b0-f814ed6d06b0",
+      "https://github.com/user-attachments/assets/318143b3-2306-4797-806a-ba111f34f688",
+    ],
+    link: "https://github.com/BhaveshxPurohit/Optimizing-ICU-Management-with-Data-Warehousing",
+    category: "Data Warehousing",
+  },
   {
     title: "Cooling Urban Heat Islands",
     description:
@@ -76,18 +88,6 @@ const projectData = [
     ],
     link: "https://github.com/BhaveshxPurohit/Energy-Optimization-for-Peak-Demand-in-South-Carolina.git",
     category: "Data Science",
-  },
-  {
-    title: "CarePulse",
-    description:
-      "A healthcare data warehouse using Snowflake, dbt, and SQL to centralize and streamline ICU patient information, enabling hospital management to monitor performance, optimize resources, and generate actionable insights through Power BI.",
-    images: [
-      "https://github.com/user-attachments/assets/7b33dd29-14fb-4187-87a2-011fead05ad6",
-      "https://github.com/user-attachments/assets/ea96f5f3-9518-4be7-a9b0-f814ed6d06b0",
-      "https://github.com/user-attachments/assets/318143b3-2306-4797-806a-ba111f34f688",
-    ],
-    link: "https://github.com/BhaveshxPurohit/Optimizing-ICU-Management-with-Data-Warehousing",
-    category: "Data Warehousing",
   },
 ];
 
