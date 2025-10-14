@@ -54,7 +54,7 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Cloud Software Engineer
+              Cloud Software Data Engineer
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
@@ -62,6 +62,74 @@ export const Timeline = () => {
             >
               <p>
               PNC Financial Services
+               </p>
+            </h4>
+          </VerticalTimelineElement>
+                   <VerticalTimelineElement
+            date={"Sep 2024 - Dec 2024"}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              border: "3px solid var(--clr-primary)",
+              backgroundColor: `var(--clr-bg)`,
+              textAlign: "center",
+              color: `var(--clr-fg-alt)`,
+            }}
+            contentArrowStyle={{
+              borderRight: "16px solid  var(--clr-primary)",
+            }}
+            iconStyle={{
+              border: ` 3px solid var(--clr-primary)`,
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+            icon={<WorkIcon />}
+          >
+            <h3
+              className="vertical-timeline-element-title"
+              data-aos="fade-right"
+            >
+              AI Engineer
+            </h3>
+            <h4
+              className="vertical-timeline-element-subtitle"
+              data-aos="fade-right"
+            >
+              <p>
+             CLAB AI
+               </p>
+            </h4>
+          </VerticalTimelineElement>
+                   <VerticalTimelineElement
+            date={"Jun 2024 - Aug 2024"}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              border: "3px solid var(--clr-primary)",
+              backgroundColor: `var(--clr-bg)`,
+              textAlign: "center",
+              color: `var(--clr-fg-alt)`,
+            }}
+            contentArrowStyle={{
+              borderRight: "16px solid  var(--clr-primary)",
+            }}
+            iconStyle={{
+              border: ` 3px solid var(--clr-primary)`,
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+            icon={<WorkIcon />}
+          >
+            <h3
+              className="vertical-timeline-element-title"
+              data-aos="fade-right"
+            >
+              Data Scientist Intern
+            </h3>
+            <h4
+              className="vertical-timeline-element-subtitle"
+              data-aos="fade-right"
+            >
+              <p>
+              CLAB AI
                </p>
             </h4>
           </VerticalTimelineElement>
