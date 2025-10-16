@@ -1,9 +1,14 @@
 import React from "react";
-import { SiPython, SiJava, SiJavascript, SiTypescript, SiCplusplus,
-         SiDjango, SiFlask, SiReact, SiNextdotjs, SiNodedotjs, SiSpringboot,
-         SiAmazonaws, SiGooglecloud, SiMicrosoftazure, SiDocker, SiKubernetes,
-         SiJenkins, SiGitlab, SiTerraform, SiMysql, SiPostgresql, SiMongodb,
-         SiOracle, SiSnowflake, SiApachespark, SiApacheairflow } from "react-icons/si";
+import {
+  SiPython, SiJavascript, SiTypescript, SiCplusplus, SiC, SiDjango, SiFlask,
+  SiReact, SiNextdotjs, SiNodedotjs, SiSpringboot,
+  SiAmazonaws, SiGooglecloud, SiMicrosoftazure, SiDocker, SiKubernetes,
+  SiJenkins, SiGitlab, SiTerraform, SiMysql, SiPostgresql, SiMongodb,
+  SiOracle, SiSnowflake, SiApachespark, SiApacheairflow,
+  SiGraphql, SiRedux, SiBootstrap, SiHtml5, SiCss3, SiJquery, SiFastapi,
+  SiPostman, SiPytest, SiJira,
+} from "react-icons/si";
+import { FaJava } from "react-icons/fa";
 import "./Techstacks.css";
 
 const categories = [
@@ -11,11 +16,11 @@ const categories = [
     title: "💻 Languages",
     techs: [
       { icon: <SiPython />, name: "Python" },
-      { icon: <SiJava />, name: "Java" },
+      { icon: <FaJava />, name: "Java" },
       { icon: <SiJavascript />, name: "JavaScript" },
       { icon: <SiTypescript />, name: "TypeScript" },
       { icon: <SiCplusplus />, name: "C++" },
-      { icon: <SiMysql />, name: "SQL" }, // Use MySQL icon as SQL
+      { icon: <SiMysql />, name: "SQL" },
     ],
   },
   {
