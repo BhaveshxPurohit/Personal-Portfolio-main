@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React from "react";
 import {
   SiPython, SiJavascript, SiTypescript, SiCplusplus, SiC, SiDjango, SiFlask,
   SiReact, SiNextdotjs, SiNodedotjs, SiSpringboot, SiExpress, SiAmazonaws,
@@ -7,7 +7,7 @@ import {
   SiGraphql, SiRedux, SiBootstrap, SiHtml5, SiCss3, SiJquery, SiFastapi,
   SiJira, SiPostman, SiPytest,
 } from "react-icons/si";
-import { FaArrowLeft, FaArrowRight, FaJava } from "react-icons/fa";
+import { FaJava } from "react-icons/fa";
 import { PiFileSql, PiFileCode } from "react-icons/pi";
 import "./Techstacks.css";
 
@@ -31,7 +31,7 @@ const categories = [
       { icon: <SiHtml5 />, name: "HTML5" },
       { icon: <SiCss3 />, name: "CSS3" },
       { icon: <SiJquery />, name: "jQuery" },
-      { icon: <PiFileCode />, name: "XML/JSON" }, // fallback icon
+      { icon: <PiFileCode />, name: "XML/JSON" },
       { icon: <SiReact />, name: "React.js" },
       { icon: <SiNextdotjs />, name: "Next.js" },
       { icon: <SiBootstrap />, name: "Bootstrap" },
@@ -85,62 +85,21 @@ const categories = [
 
 export const Techstacks = () => {
   return (
-    <div className="section main" data-aos="fade-right">
+    <div className="section main">
       <h2 className="section__title different">Skills</h2>
       {categories.map((cat, idx) => (
-        <CarouselRow key={idx} title={cat.title} techs={cat.techs} />
-      ))}
-    </div>
-  );
-};
-
-const CarouselRow = ({ title, techs }) => {
-  const scrollRef = useRef(null);
-  const [paused, setPaused] = useState(false);
-
-  // duplicate techs for circular infinite scroll
-  const extendedTechs = [...techs, ...techs];
-
-  useEffect(() => {
-    if (paused) return;
-    const scroll = setInterval(() => {
-      if (scrollRef.current) {
-        scrollRef.current.scrollLeft += 1;
-        if (scrollRef.current.scrollLeft >= scrollRef.current.scrollWidth / 2) {
-          scrollRef.current.scrollLeft = 0;
-        }
-      }
-    }, 30);
-    return () => clearInterval(scroll);
-  }, [paused]);
-
-  const handlePause = (direction) => {
-    if (!scrollRef.current) return;
-    const distance = 200;
-    scrollRef.current.scrollLeft += direction === "left" ? -distance : distance;
-    setPaused(true);
-    setTimeout(() => setPaused(false), 5000);
-  };
-
-  return (
-    <div className="category-block">
-      <h3>{title}</h3>
-      <div className="carousel-container">
-        <button className="arrow-btn" onClick={() => handlePause("left")}>
-          <FaArrowLeft />
-        </button>
-        <div className="carousel" ref={scrollRef}>
-          {extendedTechs.map((tech, index) => (
-            <div className="tech-item" key={index}>
-              {tech.icon}
-              <p>{tech.name}</p>
-            </div>
-          ))}
+        <div className="category-block" key={idx}>
+          <h3>{cat.title}</h3>
+          <div className="tech-grid">
+            {cat.techs.map((tech, index) => (
+              <div className="tech-item" key={index}>
+                {tech.icon}
+                <p>{tech.name}</p>
+              </div>
+            ))}
+          </div>
         </div>
-        <button className="arrow-btn" onClick={() => handlePause("right")}>
-          <FaArrowRight />
-        </button>
-      </div>
+      ))}
     </div>
   );
 };
