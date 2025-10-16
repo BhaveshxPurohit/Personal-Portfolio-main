@@ -69,26 +69,6 @@ const projectData = [
     link: "https://github.com/BhaveshxPurohit/Optimizing-ICU-Management-with-Data-Warehousing",
     category: "Data Warehousing",
   },
-  {
-    title: "Cooling Urban Heat Islands",
-    description:
-      "Leverages AI and satellite imagery to predict Urban Heat Islands, using Python, TensorFlow, and Snowflake for data processing and Google Earth Engine for spatial insights, supporting EY’s sustainable urban cooling initiatives.",
-    images: [
-    "https://github.com/user-attachments/assets/16a49e6d-ce08-4071-85d3-06985999618e",
-  ],
-    link: "https://github.com/BhaveshxPurohit/Cooling-Urban-Heat-Islands",
-    category: "Data Science",
-  },
-  {
-    title: "PowerSmart SC",
-    description:
-      "An interactive Shiny application that analyzes household data, hourly energy consumption, and weather patterns using R (tidyverse, xgboost) to predict peak demand and support blackout prevention through data-driven insights.",
-    images: [
-      "https://raw.githubusercontent.com/BhaveshxPurohit/Energy-Optimization-for-Peak-Demand-in-South-Carolina/main/SMARTSC.png",
-    ],
-    link: "https://github.com/BhaveshxPurohit/Energy-Optimization-for-Peak-Demand-in-South-Carolina.git",
-    category: "Data Science",
-  },
 ];
 
 // Category Filters
