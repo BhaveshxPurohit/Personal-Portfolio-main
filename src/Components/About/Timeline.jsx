@@ -246,6 +246,50 @@ export const Timeline = () => {
               color: `var(--clr-primary)`,
             }}
           ></VerticalTimelineElement>
+                    <VerticalTimelineElement
+            date={"Apr 2019 - Jun 2019"}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              border: "3px solid var(--clr-primary)",
+              backgroundColor: `var(--clr-bg)`,
+              textAlign: "center",
+              color: `var(--clr-fg-alt)`,
+            }}
+            contentArrowStyle={{
+              borderRight: "16px solid  var(--clr-primary)",
+            }}
+            iconStyle={{
+              border: ` 3px solid var(--clr-primary)`,
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+            icon={<WorkIcon />}
+          >
+            <h3
+              className="vertical-timeline-element-title"
+              data-aos="fade-right"
+            >
+              Digital Marketing Intern
+            </h3>
+            <h4
+              className="vertical-timeline-element-subtitle"
+              data-aos="fade-right"
+            >
+              
+            </h4>
+            <p data-aos="fade-right">
+            Sahu Technologies          
+            </p>
+          </VerticalTimelineElement>
+          
+          <VerticalTimelineElement
+            icon={<StarRateIcon />}
+            iconStyle={{
+              border: ` 3px solid var(--clr-primary)`,
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+          ></VerticalTimelineElement>
           
         </VerticalTimeline>
       </div>
