@@ -1,59 +1,85 @@
 .main {
-  margin-top: 4em;
-}
-.techsection {
-  width: 100%;
+  margin-top: 3em;
   text-align: center;
-  background-color: var(--clr-bg);
-  height: 50vh;
-  /* max-height: 400px; */
 }
 
-.techsection > div {
-  width: 11%;
-  height: 16vh;
-  max-height: 140px;
-  box-shadow: var(--shadow);
-  z-index: 1;
-  border-radius: 20px;
-  margin: 2.5%;
-  float: left;
+.category-block {
+  margin-bottom: 3rem;
+}
+
+.category-block h3 {
+  color: var(--clr-primary);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.carousel-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.arrow-btn {
+  background: var(--clr-primary);
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+.arrow-btn:hover {
+  transform: scale(1.1);
+}
+
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  width: 80%;
+}
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.tech-item {
+  flex: 0 0 auto;
+  background-color: var(--clr-bg);
+  border: 1px solid var(--clr-primary);
+  border-radius: 12px;
+  margin: 0 10px;
+  width: 90px;
+  height: 90px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  transition: all 0.5s ease 0s;
-  border: 2px solid var(--clr-primary);
+  box-shadow: var(--shadow);
+  transition: all 0.3s ease;
 }
-.techsection > div:hover {
-  background-color: var(--clr-bg);
-  overflow: hidden;
-  transform: scale(1.08);
-  box-shadow: rgba(0, 0, 0, 0.36) 0px 10px 36px 0px,
-    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-  border: 1px solid var(--clr-primary);
+.tech-item:hover {
+  transform: scale(1.1);
+  background-color: var(--clr-primary-light);
 }
 
-.techsection > div > svg {
-  /* height: 50%;
-  width: 50%; */
-  font-size: 8vh;
+.tech-item svg {
+  font-size: 32px;
   color: var(--clr-primary);
 }
-.techsection > div > h5 {
-  position: relative;
-  top: 8px;
-  background-color: transparent;
+.tech-item p {
+  margin-top: 5px;
+  font-size: 0.8rem;
 }
 
 @media (max-width: 600px) {
-  .techsection {
-    height: 120vh;
+  .tech-item {
+    width: 70px;
+    height: 70px;
   }
-  .techsection > div {
-    width: 40%;
-    margin-right: 5%;
-    margin-bottom: 2%;
-    height: 18vh;
+  .tech-item svg {
+    font-size: 24px;
   }
 }
