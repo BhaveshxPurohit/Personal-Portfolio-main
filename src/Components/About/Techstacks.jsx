@@ -1,14 +1,13 @@
 import React from "react";
 import {
-  SiPython, SiJavascript, SiTypescript, SiCplusplus, SiC, SiDjango, SiFlask,
-  SiReact, SiNextdotjs, SiNodedotjs, SiSpringboot,
-  SiAmazonaws, SiGooglecloud, SiMicrosoftazure, SiDocker, SiKubernetes,
-  SiJenkins, SiGitlab, SiTerraform, SiMysql, SiPostgresql, SiMongodb,
-  SiOracle, SiSnowflake, SiApachespark, SiApacheairflow,
-  SiGraphql, SiRedux, SiBootstrap, SiHtml5, SiCss3, SiJquery, SiFastapi,
-  SiPostman, SiPytest, SiJira,
+  SiPython, SiJavascript, SiTypescript, SiCplusplus, SiDjango, SiFlask,
+  SiReact, SiNextdotjs, SiNodedotjs, SiSpringboot, SiAmazonaws, SiGooglecloud,
+  SiMicrosoftazure, SiDocker, SiKubernetes, SiJenkins, SiGitlab, SiTerraform,
+  SiMysql, SiPostgresql, SiMongodb, SiOracle, SiSnowflake, SiApacheairflow,
+  SiApache, SiSpark, // Using Apache icon as fallback for Spark if needed
 } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
+import { PiFileSql } from "react-icons/pi";
 import "./Techstacks.css";
 
 const categories = [
@@ -20,7 +19,7 @@ const categories = [
       { icon: <SiJavascript />, name: "JavaScript" },
       { icon: <SiTypescript />, name: "TypeScript" },
       { icon: <SiCplusplus />, name: "C++" },
-      { icon: <SiMysql />, name: "SQL" },
+      { icon: <PiFileSql />, name: "SQL" },
     ],
   },
   {
@@ -61,7 +60,7 @@ const categories = [
       { icon: <SiMongodb />, name: "MongoDB" },
       { icon: <SiOracle />, name: "Oracle" },
       { icon: <SiSnowflake />, name: "Snowflake" },
-      { icon: <SiApachespark />, name: "Spark" },
+      { icon: <SiSpark />, name: "Spark" },
     ],
   },
 ];
@@ -77,7 +76,7 @@ export const Techstacks = () => {
             {cat.techs.map((tech, index) => (
               <div className="tech-item" key={index}>
                 {tech.icon}
-                <span>{tech.name}</span>
+                <p>{tech.name}</p>
               </div>
             ))}
           </div>
