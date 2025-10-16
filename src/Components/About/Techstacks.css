@@ -1,53 +1,59 @@
 .main {
   margin-top: 2em;
-  text-align: center; /* center category titles */
+  text-align: center;
 }
 
 .category-block {
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
 }
 
 .category-block h3 {
-  font-size: 1.3rem;
-  margin-bottom: 0.8rem;
-  text-align: center; /* center category title */
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  text-align: center;
 }
 
 .tech-grid {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* center all items horizontally */
-  align-items: center;     /* center items vertically */
-  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
 }
 
 .tech-item {
   display: flex;
-  flex-direction: column; /* icon above text */
-  align-items: center;    /* center icon and text */
-  justify-content: center; /* vertical center inside box */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   gap: 6px;
-  padding: 6px 10px;
-  border-radius: 8px;
+  padding: 8px 12px;
+  border-radius: 10px;
   border: 1px solid var(--clr-primary);
   background-color: var(--clr-bg);
-  font-size: 0.9rem;
+  font-size: 1rem;
   transition: transform 0.2s ease;
 }
 .tech-item svg {
-  font-size: 20px;
+  font-size: 32px; /* increased icon size */
   color: var(--clr-primary);
 }
 .tech-item:hover {
-  transform: scale(1.05);
+  transform: scale(1.08);
+}
+
+.tech-item span {
+  font-size: 0.9rem;
 }
 
 @media (max-width: 600px) {
   .tech-item {
-    font-size: 0.8rem;
-    padding: 5px 8px;
+    padding: 6px 10px;
   }
   .tech-item svg {
-    font-size: 18px;
+    font-size: 24px; /* slightly bigger for mobile */
+  }
+  .tech-item span {
+    font-size: 0.8rem;
   }
 }
