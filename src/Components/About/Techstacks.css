@@ -1,59 +1,48 @@
 .main {
-  margin-top: 3em;
-  text-align: center;
+  margin-top: 2em;
+  text-align: left;
 }
 
 .category-block {
-  margin-bottom: 2.5rem;
+  margin-bottom: 2rem;
 }
 
 .category-block h3 {
-  color: var(--clr-primary);
-  font-size: 1.4rem;
-  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  margin-bottom: 0.8rem;
 }
 
 .tech-grid {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 15px;
+  gap: 12px;
 }
 
 .tech-item {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  width: 70px;
-  height: 70px;
-  background-color: var(--clr-bg);
+  gap: 6px;
+  padding: 6px 10px;
+  border-radius: 8px;
   border: 1px solid var(--clr-primary);
-  border-radius: 10px;
-  justify-content: center;
+  background-color: var(--clr-bg);
+  font-size: 0.9rem;
   transition: transform 0.2s ease;
 }
-.tech-item:hover {
-  transform: scale(1.1);
-  background-color: var(--clr-primary-light);
-}
-
 .tech-item svg {
-  font-size: 28px;
+  font-size: 20px;
   color: var(--clr-primary);
 }
-
-.tech-item p {
-  margin-top: 4px;
-  font-size: 0.75rem;
-  text-align: center;
+.tech-item:hover {
+  transform: scale(1.05);
 }
 
 @media (max-width: 600px) {
   .tech-item {
-    width: 60px;
-    height: 60px;
+    font-size: 0.8rem;
+    padding: 5px 8px;
   }
   .tech-item svg {
-    font-size: 22px;
+    font-size: 18px;
   }
 }
