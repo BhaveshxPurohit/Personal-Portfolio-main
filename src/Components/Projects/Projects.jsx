@@ -69,44 +69,91 @@ const projectData = [
     link: "https://github.com/BhaveshxPurohit/Optimizing-ICU-Management-with-Data-Warehousing",
     category: "Data Warehousing",
   },
-  {
+ {
   title: "Clab AI — Introductory Assignment",
   description:
-    "An interactive AI-powered dashboard built using Next.js 14, TypeScript, and the T3 Stack to manage posts, images, and chatbot interactions. It integrates the Vercel AI SDK for streaming text and UI responses, enabling seamless communication with OpenAI structured outputs. The system uses TursoDB and Drizzle ORM for data management, Tailwind for styling, and UploadThing for media handling, delivering a responsive, full-stack AI experience deployed on Vercel.",
+    "A full-stack AI dashboard using Next.js, TypeScript, and Vercel AI SDK for CRUD operations, image uploads, and real-time chatbot interactions powered by OpenAI structured outputs.",
   images: [
     // Add image URLs here
   ],
   link: "https://github.com/BhaveshxPurohit/Clab-AI-Introductory-Assignment",
-  category: "AI Dashboard Application",
-  },
-      {
-    title: "CarePulse",
-    description:
-      "A healthcare data warehouse using Snowflake, dbt, and SQL to centralize and streamline ICU patient information, enabling hospital management to monitor performance, optimize resources, and generate actionable insights through Power BI.",
-    images: [
-      "https://github.com/user-attachments/assets/7b33dd29-14fb-4187-87a2-011fead05ad6",
-      "https://github.com/user-attachments/assets/ea96f5f3-9518-4be7-a9b0-f814ed6d06b0",
-      "https://github.com/user-attachments/assets/318143b3-2306-4797-806a-ba111f34f688",
-    ],
-    link: "https://github.com/BhaveshxPurohit/Optimizing-ICU-Management-with-Data-Warehousing",
-    category: "Data Warehousing",
-  },
-      {
-    title: "CarePulse",
-    description:
-      "A healthcare data warehouse using Snowflake, dbt, and SQL to centralize and streamline ICU patient information, enabling hospital management to monitor performance, optimize resources, and generate actionable insights through Power BI.",
-    images: [
-      "https://github.com/user-attachments/assets/7b33dd29-14fb-4187-87a2-011fead05ad6",
-      "https://github.com/user-attachments/assets/ea96f5f3-9518-4be7-a9b0-f814ed6d06b0",
-      "https://github.com/user-attachments/assets/318143b3-2306-4797-806a-ba111f34f688",
-    ],
-    link: "https://github.com/BhaveshxPurohit/Optimizing-ICU-Management-with-Data-Warehousing",
-    category: "Data Warehousing",
-  },
+  category: "AI",
+},
+{
+  title: "MindSage",
+  description:
+    "An AI-powered mental health platform using Next.js, MongoDB, and Google Generative AI to deliver real-time wellness insights, personalized recommendations, and interactive chat support through a modern, responsive dashboard.",
+  images: [
+    // Add image URLs here
+  ],
+  link: "https://github.com/BhaveshxPurohit/Mind-Sage",
+  category: "AI",
+},
+{
+  title: "Jobnest",
+  description:
+    "A MERN-based job tracking platform offering real-time analytics, secure OAuth and JWT authentication, and an interactive UI for managing applications, improving user engagement, and increasing daily active users.",
+  images: [
+    // Add image URLs here
+  ],
+  link: "https://github.com/BhaveshxPurohit/JobNest",
+  category: "Full Stack",
+},
+  {
+  title: "AI Marketplace",
+  description:
+    "An AI-driven car discovery platform using Next.js, TypeScript, Prisma, and Gemini API to provide semantic search, image recognition, EMI calculations, test drive booking, and admin management in a responsive UI.",
+  images: [
+    // Add image URLs here
+  ],
+  link: "https://github.com/BhaveshxPurohit/AI-Marketplace",
+  category: "AI",
+},
+  {
+  title: "Campus Navigation",
+  description:
+    "An iOS app using Swift, SwiftUI, MapKit, and Firebase to provide real-time campus navigation, offline access, dynamic routing, and department-based lab search for enhanced user experience and precision.",
+  images: [
+    // Add image URLs here
+  ],
+  link: "https://github.com/BhaveshxPurohit/NavCampus",
+  category: "Frontend",
+},
+{
+  title: "Stock Trading Engine",
+  description:
+    "A high-performance Java trading engine with lock-free data structures, priority-based order matching, REST API, real-time market simulation, order book visualization, multithreading, and low-latency analytics for high-frequency trading.",
+  images: [
+    // Add image URLs here
+  ],
+  link: "https://github.com/BhaveshxPurohit/Stock-Trading-Engine",
+  category: "Backend",
+},
+{
+  title: "Inventory Management System",
+  description:
+    "A full-stack inventory dashboard using Next.js, Node.js, Prisma, Redux Toolkit, and Tailwind CSS with real-time visualization, secure AWS deployment (EC2, RDS, S3), and enterprise-grade state and API management.",
+  images: [
+    // Add image URLs here
+  ],
+  link: "https://github.com/BhaveshxPurohit/Inventory-Management-System",
+  category: "Full Stack",
+},
+{
+  title: "VelocityVault",
+  description:
+    "A secure banking application built with Python, Django, and PostgreSQL, offering comprehensive financial functionalities, real-time notifications, user authentication, AWS S3 storage, and scalable deployment with Celery and Redis for async processing.",
+  images: [
+    // Add image URLs here
+  ],
+  link: "https://github.com/BhaveshxPurohit/VelocityVault",
+  category: "Backend",
+},
+
 ];
 
 // Category Filters
-const categories = ["All", "Data Analytics", "Data Science", "Data Warehousing"];
+const categories = ["All", "AI", "Full Stack", "Frontend", "Backend", "Data Analytics"];
 
 export const Projects = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
