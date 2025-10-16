@@ -69,6 +69,40 @@ const projectData = [
     link: "https://github.com/BhaveshxPurohit/Optimizing-ICU-Management-with-Data-Warehousing",
     category: "Data Warehousing",
   },
+  {
+  title: "Clab AI — Introductory Assignment",
+  description:
+    "An interactive AI-powered dashboard built using Next.js 14, TypeScript, and the T3 Stack to manage posts, images, and chatbot interactions. It integrates the Vercel AI SDK for streaming text and UI responses, enabling seamless communication with OpenAI structured outputs. The system uses TursoDB and Drizzle ORM for data management, Tailwind for styling, and UploadThing for media handling, delivering a responsive, full-stack AI experience deployed on Vercel.",
+  images: [
+    // Add image URLs here
+  ],
+  link: "https://github.com/BhaveshxPurohit/Clab-AI-Introductory-Assignment",
+  category: "AI Dashboard Application",
+  },
+      {
+    title: "CarePulse",
+    description:
+      "A healthcare data warehouse using Snowflake, dbt, and SQL to centralize and streamline ICU patient information, enabling hospital management to monitor performance, optimize resources, and generate actionable insights through Power BI.",
+    images: [
+      "https://github.com/user-attachments/assets/7b33dd29-14fb-4187-87a2-011fead05ad6",
+      "https://github.com/user-attachments/assets/ea96f5f3-9518-4be7-a9b0-f814ed6d06b0",
+      "https://github.com/user-attachments/assets/318143b3-2306-4797-806a-ba111f34f688",
+    ],
+    link: "https://github.com/BhaveshxPurohit/Optimizing-ICU-Management-with-Data-Warehousing",
+    category: "Data Warehousing",
+  },
+      {
+    title: "CarePulse",
+    description:
+      "A healthcare data warehouse using Snowflake, dbt, and SQL to centralize and streamline ICU patient information, enabling hospital management to monitor performance, optimize resources, and generate actionable insights through Power BI.",
+    images: [
+      "https://github.com/user-attachments/assets/7b33dd29-14fb-4187-87a2-011fead05ad6",
+      "https://github.com/user-attachments/assets/ea96f5f3-9518-4be7-a9b0-f814ed6d06b0",
+      "https://github.com/user-attachments/assets/318143b3-2306-4797-806a-ba111f34f688",
+    ],
+    link: "https://github.com/BhaveshxPurohit/Optimizing-ICU-Management-with-Data-Warehousing",
+    category: "Data Warehousing",
+  },
 ];
 
 // Category Filters
