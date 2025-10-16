@@ -6,7 +6,6 @@ import {
   SiTerraform, SiApachekafka, SiMysql, SiPostgresql, SiMongodb, SiOracle,
   SiGraphql, SiRedux, SiBootstrap, SiHtml5, SiCss3, SiJquery, SiFastapi,
   SiJira, SiPostman, SiVercel, SiJson, SiTestinglibrary, SiPytest,
-  SiMockito
 } from "react-icons/si";
 import { FaArrowLeft, FaArrowRight, FaJava } from "react-icons/fa";
 import { PiFileSql } from "react-icons/pi";
@@ -61,7 +60,6 @@ const categories = [
     title: "Tools & Technologies",
     techs: [
       { icon: <SiPytest />, name: "PyTest" },
-      { icon: <SiMockito />, name: "Mockito" },
       { icon: <SiPostman />, name: "Postman" },
       { icon: <SiJira />, name: "Jira" },
       { icon: <SiDocker />, name: "Docker" },
