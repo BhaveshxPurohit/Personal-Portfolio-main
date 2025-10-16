@@ -5,7 +5,7 @@ import {
   SiGooglecloud, SiDocker, SiKubernetes, SiJenkins, SiGit, SiGithub, SiGitlab,
   SiTerraform, SiApachekafka, SiMysql, SiPostgresql, SiMongodb, SiOracle,
   SiGraphql, SiRedux, SiBootstrap, SiHtml5, SiCss3, SiJquery, SiFastapi,
-  SiJira, SiPostman, SiVercel, SiJson, SiXml, SiTestinglibrary, SiPytest,
+  SiJira, SiPostman, SiVercel, SiJson, SiTestinglibrary, SiPytest,
   SiMockito
 } from "react-icons/si";
 import { FaArrowLeft, FaArrowRight, FaJava } from "react-icons/fa";
@@ -33,7 +33,6 @@ const categories = [
       { icon: <SiCss3 />, name: "CSS3" },
       { icon: <SiJquery />, name: "jQuery" },
       { icon: <SiJson />, name: "JSON" },
-      { icon: <SiXml />, name: "XML" },
       { icon: <SiReact />, name: "React.js" },
       { icon: <SiNextdotjs />, name: "Next.js" },
       { icon: <SiBootstrap />, name: "Bootstrap" },
