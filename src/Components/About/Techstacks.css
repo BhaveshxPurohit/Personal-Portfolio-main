@@ -1,6 +1,6 @@
 .main {
   margin-top: 2em;
-  text-align: left;
+  text-align: center; /* center category titles */
 }
 
 .category-block {
@@ -10,17 +10,22 @@
 .category-block h3 {
   font-size: 1.3rem;
   margin-bottom: 0.8rem;
+  text-align: center; /* center category title */
 }
 
 .tech-grid {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center; /* center all items horizontally */
+  align-items: center;     /* center items vertically */
   gap: 12px;
 }
 
 .tech-item {
   display: flex;
-  align-items: center;
+  flex-direction: column; /* icon above text */
+  align-items: center;    /* center icon and text */
+  justify-content: center; /* vertical center inside box */
   gap: 6px;
   padding: 6px 10px;
   border-radius: 8px;
