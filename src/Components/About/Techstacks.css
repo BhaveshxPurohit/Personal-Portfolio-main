@@ -26,8 +26,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 6px;
-  padding: 8px 12px;
+  width: 100px;    /* fixed width */
+  height: 100px;   /* fixed height */
+  padding: 8px;
   border-radius: 10px;
   border: 1px solid var(--clr-primary);
   background-color: var(--clr-bg);
@@ -35,7 +36,7 @@
   transition: transform 0.2s ease;
 }
 .tech-item svg {
-  font-size: 32px; /* increased icon size */
+  font-size: 32px; /* icon size */
   color: var(--clr-primary);
 }
 .tech-item:hover {
@@ -44,14 +45,17 @@
 
 .tech-item span {
   font-size: 0.9rem;
+  text-align: center;
 }
 
 @media (max-width: 600px) {
   .tech-item {
-    padding: 6px 10px;
+    width: 80px;
+    height: 80px;
+    padding: 6px;
   }
   .tech-item svg {
-    font-size: 24px; /* slightly bigger for mobile */
+    font-size: 24px; /* mobile icon size */
   }
   .tech-item span {
     font-size: 0.8rem;
