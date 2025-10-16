@@ -5,10 +5,10 @@ import {
   SiGooglecloud, SiDocker, SiKubernetes, SiJenkins, SiGit, SiGithub, SiGitlab,
   SiTerraform, SiApachekafka, SiMysql, SiPostgresql, SiMongodb, SiOracle,
   SiGraphql, SiRedux, SiBootstrap, SiHtml5, SiCss3, SiJquery, SiFastapi,
-  SiJira, SiPostman, SiVercel, SiJson, SiTestinglibrary, SiPytest,
+  SiJira, SiPostman, SiPytest,
 } from "react-icons/si";
 import { FaArrowLeft, FaArrowRight, FaJava } from "react-icons/fa";
-import { PiFileSql } from "react-icons/pi";
+import { PiFileSql, PiFileCode } from "react-icons/pi";
 import "./Techstacks.css";
 
 const categories = [
@@ -31,7 +31,7 @@ const categories = [
       { icon: <SiHtml5 />, name: "HTML5" },
       { icon: <SiCss3 />, name: "CSS3" },
       { icon: <SiJquery />, name: "jQuery" },
-      { icon: <SiJson />, name: "JSON" },
+      { icon: <PiFileCode />, name: "XML/JSON" }, // fallback icon
       { icon: <SiReact />, name: "React.js" },
       { icon: <SiNextdotjs />, name: "Next.js" },
       { icon: <SiBootstrap />, name: "Bootstrap" },
@@ -98,15 +98,15 @@ const CarouselRow = ({ title, techs }) => {
   const scrollRef = useRef(null);
   const [paused, setPaused] = useState(false);
 
+  // duplicate techs for circular infinite scroll
+  const extendedTechs = [...techs, ...techs];
+
   useEffect(() => {
     if (paused) return;
     const scroll = setInterval(() => {
       if (scrollRef.current) {
         scrollRef.current.scrollLeft += 1;
-        if (
-          scrollRef.current.scrollLeft >=
-          scrollRef.current.scrollWidth - scrollRef.current.clientWidth
-        ) {
+        if (scrollRef.current.scrollLeft >= scrollRef.current.scrollWidth / 2) {
           scrollRef.current.scrollLeft = 0;
         }
       }
@@ -116,7 +116,7 @@ const CarouselRow = ({ title, techs }) => {
 
   const handlePause = (direction) => {
     if (!scrollRef.current) return;
-    const distance = 200; // how far to move per click
+    const distance = 200;
     scrollRef.current.scrollLeft += direction === "left" ? -distance : distance;
     setPaused(true);
     setTimeout(() => setPaused(false), 5000);
@@ -130,7 +130,7 @@ const CarouselRow = ({ title, techs }) => {
           <FaArrowLeft />
         </button>
         <div className="carousel" ref={scrollRef}>
-          {techs.map((tech, index) => (
+          {extendedTechs.map((tech, index) => (
             <div className="tech-item" key={index}>
               {tech.icon}
               <p>{tech.name}</p>
