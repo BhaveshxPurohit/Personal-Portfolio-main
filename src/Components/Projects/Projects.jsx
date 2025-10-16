@@ -67,7 +67,7 @@ const projectData = [
       "https://github.com/user-attachments/assets/318143b3-2306-4797-806a-ba111f34f688",
     ],
     link: "https://github.com/BhaveshxPurohit/Optimizing-ICU-Management-with-Data-Warehousing",
-    category: "Data Warehousing",
+    category: "Data Analytics",
   },
  {
   title: "Clab AI — Introductory Assignment",
