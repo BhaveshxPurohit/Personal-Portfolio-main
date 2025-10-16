@@ -24,25 +24,26 @@
   background: var(--clr-primary);
   color: white;
   border: none;
-  padding: 0.5rem;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
   transition: transform 0.2s ease;
+  flex-shrink: 0;
+  font-size: 1.2rem;
 }
 .arrow-btn:hover {
-  transform: scale(1.1);
+  transform: scale(1.15);
 }
 
 .carousel {
   display: flex;
-  overflow-x: auto;
+  overflow-x: hidden;
   scroll-behavior: smooth;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
   width: 80%;
-}
-.carousel::-webkit-scrollbar {
-  display: none;
 }
 
 .tech-item {
