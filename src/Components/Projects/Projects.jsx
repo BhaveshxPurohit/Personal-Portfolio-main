@@ -70,7 +70,7 @@ const projectData = [
     category: "Data Analytics",
   },
  {
-  title: "AI Driven Dashboard",
+  title: "AI Dashboard",
   description:
     "A full-stack AI dashboard using Next.js, TypeScript, and Vercel AI SDK for CRUD operations, image uploads, and real-time chatbot interactions powered by OpenAI structured outputs.",
   images: [
