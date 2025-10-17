@@ -46,7 +46,7 @@ const projectData = [
     category: "Data Analytics",
   },
   {
-    title: "Electrifying New York",
+    title: "EV-lytics for NY",
     description:
       "Analyzes EV adoption, rebate distribution, and charging infrastructure across New York State using Python, SQL, and Tableau. It delivers interactive dashboards supporting data-driven policy decisions and sustainable mobility planning.",
     images: [
