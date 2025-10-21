@@ -74,7 +74,8 @@ const projectData = [
   description:
     "A full-stack AI dashboard using Next.js, TypeScript, and Vercel AI SDK for CRUD operations, image uploads, and real-time chatbot interactions powered by OpenAI structured outputs.",
   images: [
-    // Add image URLs here
+    "https://github.com/user-attachments/assets/abb24f0a-4e41-45b8-a240-fc21bd822895",
+    "https://github.com/user-attachments/assets/b13d957c-9d37-4f6c-b967-f72ccd9b10f9"
   ],
   link: "https://github.com/BhaveshxPurohit/Clab-AI-Introductory-Assignment",
   category: "AI",
