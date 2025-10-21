@@ -237,16 +237,7 @@ export const Timeline = () => {
             Bhawani Electronics           
             </p>
           </VerticalTimelineElement>
-          
-          <VerticalTimelineElement
-            icon={<StarRateIcon />}
-            iconStyle={{
-              border: ` 3px solid var(--clr-primary)`,
-              backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`,
-            }}
-          ></VerticalTimelineElement>
-     <VerticalTimelineElement
+         <VerticalTimelineElement
             date={"Apr 2019 - Jun 2019"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
@@ -281,7 +272,14 @@ export const Timeline = () => {
             Sahu Technologies           
             </p>
           </VerticalTimelineElement>
-          
+                    <VerticalTimelineElement
+            icon={<StarRateIcon />}
+            iconStyle={{
+              border: ` 3px solid var(--clr-primary)`,
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+          ></VerticalTimelineElement>
         </VerticalTimeline>
       </div>
     </>
