@@ -29,6 +29,30 @@ const ImageCarousel = ({ images = [] }) => {
 
 // Project Data
 const projectData = [
+   {
+  title: "AI Dashboard",
+  description:
+    "A full-stack AI dashboard using Next.js, TypeScript, and Vercel AI SDK for CRUD operations, image uploads, and real-time chatbot interactions powered by OpenAI structured outputs.",
+  images: [
+    "https://github.com/user-attachments/assets/18cfc4ce-7c2f-436e-856c-8293644deef1",
+    "https://github.com/user-attachments/assets/b13d957c-9d37-4f6c-b967-f72ccd9b10f9",
+  ],
+  link: "https://github.com/BhaveshxPurohit/Clab-AI-Introductory-Assignment",
+  category: "AI",
+},
+{
+  title: "MindSage",
+  description:
+    "An AI-powered mental health platform using Next.js, MongoDB, and Google Generative AI to deliver real-time wellness insights, personalized recommendations, and interactive chat support through a modern, responsive dashboard.",
+  images: [
+    "https://github.com/user-attachments/assets/ba7485fa-38ad-4ee4-9456-4324a629d3e3",
+    "https://github.com/user-attachments/assets/0dea74c9-790c-4e4d-b94a-72609664beb6",
+    "https://github.com/user-attachments/assets/69dafb88-d81d-4a3b-b6b5-feb2bd21ebd2",
+    "https://github.com/user-attachments/assets/4d445778-503e-41f4-94d4-fea0754fa362",
+  ],
+  link: "https://github.com/BhaveshxPurohit/Mind-Sage",
+  category: "AI",
+},
   {
     title: "StockStream",
     description:
@@ -75,30 +99,6 @@ const projectData = [
     link: "https://github.com/BhaveshxPurohit/Optimizing-ICU-Management-with-Data-Warehousing",
     category: "Data Analytics",
   },
- {
-  title: "AI Dashboard",
-  description:
-    "A full-stack AI dashboard using Next.js, TypeScript, and Vercel AI SDK for CRUD operations, image uploads, and real-time chatbot interactions powered by OpenAI structured outputs.",
-  images: [
-    "https://github.com/user-attachments/assets/18cfc4ce-7c2f-436e-856c-8293644deef1",
-    "https://github.com/user-attachments/assets/b13d957c-9d37-4f6c-b967-f72ccd9b10f9",
-  ],
-  link: "https://github.com/BhaveshxPurohit/Clab-AI-Introductory-Assignment",
-  category: "AI",
-},
-{
-  title: "MindSage",
-  description:
-    "An AI-powered mental health platform using Next.js, MongoDB, and Google Generative AI to deliver real-time wellness insights, personalized recommendations, and interactive chat support through a modern, responsive dashboard.",
-  images: [
-    "https://github.com/user-attachments/assets/ba7485fa-38ad-4ee4-9456-4324a629d3e3",
-    "https://github.com/user-attachments/assets/0dea74c9-790c-4e4d-b94a-72609664beb6",
-    "https://github.com/user-attachments/assets/69dafb88-d81d-4a3b-b6b5-feb2bd21ebd2",
-    "https://github.com/user-attachments/assets/4d445778-503e-41f4-94d4-fea0754fa362",
-  ],
-  link: "https://github.com/BhaveshxPurohit/Mind-Sage",
-  category: "AI",
-},
 {
   title: "Jobnest",
   description:
