@@ -5,16 +5,9 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 // Image Carousel Component
 // Image Carousel Component
 const ImageCarousel = ({ images = [] }) => {
-  const [current, setCurrent] = useState(0);
+  if (!images.length) return null; // Don't render anything if no images
 
-  // If no images, render a placeholder
-  if (!images.length) {
-    return (
-      <div className="carousel-container no-image">
-        <div className="no-image-placeholder">No Image Available</div>
-      </div>
-    );
-  }
+  const [current, setCurrent] = useState(0);
 
   const nextSlide = () => setCurrent((current + 1) % images.length);
   const prevSlide = () => setCurrent((current - 1 + images.length) % images.length);
@@ -31,6 +24,7 @@ const ImageCarousel = ({ images = [] }) => {
     </div>
   );
 };
+
 
 
 // Project Data
