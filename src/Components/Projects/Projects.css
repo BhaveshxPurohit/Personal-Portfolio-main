@@ -184,3 +184,20 @@
     flex-shrink: 0;
   }
 }
+
+.no-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  border: 2px dashed var(--clr-primary);
+  border-radius: 20px;
+}
+
+.no-image-placeholder {
+  color: var(--clr-primary);
+  font-size: 1rem;
+  opacity: 0.7;
+  text-align: center;
+}
+
