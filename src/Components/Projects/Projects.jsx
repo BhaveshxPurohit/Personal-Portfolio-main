@@ -118,13 +118,19 @@ const projectData = [
   title: "Campus Navigation",
   description:
     "An iOS app using Swift, SwiftUI, MapKit, and Firebase to provide real-time campus navigation, offline access, dynamic routing, and department-based lab search for enhanced user experience and precision.",
-  link: "https://github.com/BhaveshxPurohit/NavCampus",
+    images: [
+    // Add image URLs here
+  ],
+    link: "https://github.com/BhaveshxPurohit/NavCampus",
   category: "Frontend",
 },
 {
   title: "Stock Trading Engine",
   description:
     "A high-performance Java trading engine with lock-free data structures, priority-based order matching, REST API, real-time market simulation, order book visualization, multithreading, and low-latency analytics for high-frequency trading.",
+   images: [
+    // Add image URLs here
+  ],
   link: "https://github.com/BhaveshxPurohit/Stock-Trading-Engine",
   category: "Backend",
 },
@@ -132,6 +138,9 @@ const projectData = [
   title: "Inventory Management System",
   description:
     "A full-stack inventory dashboard using Next.js, Node.js, Prisma, Redux Toolkit, and Tailwind CSS with real-time visualization, secure AWS deployment (EC2, RDS, S3), and enterprise-grade state and API management.",
+   images: [
+    // Add image URLs here
+  ],
   link: "https://github.com/BhaveshxPurohit/Inventory-Management-System",
   category: "Full Stack",
 },
@@ -139,6 +148,9 @@ const projectData = [
   title: "VelocityVault",
   description:
     "A secure banking application built with Python, Django, and PostgreSQL, offering comprehensive financial functionalities, real-time notifications, user authentication, AWS S3 storage, and scalable deployment with Celery and Redis for async processing.",
+    images: [
+    // Add image URLs here
+  ],
   link: "https://github.com/BhaveshxPurohit/VelocityVault",
   category: "Backend",
 },
