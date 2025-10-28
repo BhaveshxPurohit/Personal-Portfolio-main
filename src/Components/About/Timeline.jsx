@@ -203,7 +203,7 @@ export const Timeline = () => {
             </h4>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            date={"May 2020 - Jul 2020"}
+            date={"Jan 2020 - Mar 2020"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
