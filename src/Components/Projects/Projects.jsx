@@ -37,7 +37,7 @@ const projectData = [
     "https://github.com/user-attachments/assets/18cfc4ce-7c2f-436e-856c-8293644deef1",
     "https://github.com/user-attachments/assets/b13d957c-9d37-4f6c-b967-f72ccd9b10f9",
   ],
-  link: "https://github.com/BhaveshxPurohit/Clab-AI-Introductory-Assignment",
+  link: "https://github.com/BhaveshxPurohit/AI-Dashboard",
   category: "AI",
 },
 {
