@@ -59,7 +59,7 @@
   width: 100%;
   aspect-ratio: 16 / 9;
   overflow: hidden;
-  background: var(--clr-bg-alt);
+  background: transparent;
 }
 
 .carousel-img {
@@ -106,7 +106,7 @@
   justify-content: center;
   color: var(--clr-muted);
   font-size: 0.85rem;
-  background: var(--clr-bg-alt);
+  background: transparent;
   font-family: "JetBrains Mono", monospace;
 }
 
