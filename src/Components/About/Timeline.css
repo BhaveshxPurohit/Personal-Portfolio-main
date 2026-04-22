@@ -47,17 +47,15 @@
 }
 
 .timeline-card {
-  background: var(--clr-glass);
-  border: 1px solid var(--clr-border);
+  background: transparent;
+  border: none;
   border-radius: 14px;
   padding: 1.4em 1.8em;
-  backdrop-filter: blur(12px);
-  transition: border-color 0.3s, box-shadow 0.3s, transform 0.3s;
+  transition: box-shadow 0.3s, transform 0.3s;
 }
 
 .timeline-card:hover {
   transform: translateX(6px);
-  border-color: var(--clr-primary);
   box-shadow: var(--glow-sm);
 }
 

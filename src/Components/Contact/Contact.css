@@ -15,9 +15,8 @@
   margin: 0 auto;
   padding: 2.5em 3em;
   border-radius: 20px;
-  background: var(--clr-glass);
-  border: 1px solid var(--clr-border);
-  backdrop-filter: blur(16px);
+  background: transparent;
+  border: none;
 }
 
 .contact-icons {
