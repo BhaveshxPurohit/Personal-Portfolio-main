@@ -1,22 +1,14 @@
 import React from "react";
 import { Navbar } from "../Navbar/Navbar";
-import { ThemeContext } from "../../Context/theme";
-
-
 import "./Header.css";
-export const Header = () => {
-  const [{ themename }] = React.useContext(ThemeContext);
 
+export const Header = () => {
   return (
-    <>
-      <header className={"header center " + themename}>
-        <h3>
-          <a href="#home" className="link">
-            Bhavesh Purohit
-          </a>
-        </h3>
-        <Navbar />
-      </header>
-    </>
+    <header className="header center">
+      <a href="#home" className="header__logo">
+        &lt;Bhavesh /&gt;
+      </a>
+      <Navbar />
+    </header>
   );
 };

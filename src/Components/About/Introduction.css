@@ -1,71 +1,81 @@
+.introduction-section { margin-top: 7em; }
+
+.introduction-section .section__title { margin-bottom: 2.5em; }
+
 .introduction {
-  width: 100%;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1.6fr;
+  gap: 4em;
   align-items: center;
-  gap: 2rem;
-  margin-top: 4em;
-  margin-bottom: 4em;
-  flex-wrap: wrap;
 }
 
-.different {
-  color: var(--clr-primary);
-}
-
-.introduction_logocontainer {
-  flex-basis: 40%;
+/* Photo */
+.introduction__photo-wrap {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
-.introduction_logocontainer > img {
-  width: 180px;
-  height: 180px;
-  object-fit: cover;
+.introduction__photo-ring {
+  position: relative;
+  width: 220px;
+  height: 220px;
+}
+
+.introduction__photo-ring::before {
+  content: '';
+  position: absolute;
+  inset: -3px;
   border-radius: 50%;
-  border: 3px solid var(--clr-primary);
-  transition: transform 0.3s ease;
+  background: var(--gradient);
+  z-index: 0;
 }
 
-.introduction_logocontainer > img:hover {
-  transform: scale(1.05);
+.introduction__photo-ring img {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid var(--clr-bg);
+  transition: transform 0.4s ease;
 }
 
-.introduction_datacontainer {
-  flex-basis: 55%;
-  padding: 0 1rem;
+.introduction__photo-ring:hover img {
+  transform: scale(1.04);
 }
 
-.introduction_datacontainer p {
-  font-size: 1.1em;
-  line-height: 1.6em;
-  margin-bottom: 1.2em;
+/* Text */
+.introduction__text {
+  padding: 2em 2.5em;
+  border-radius: 20px;
+  background: var(--clr-glass);
+  border: 1px solid var(--clr-border);
+  backdrop-filter: blur(16px);
+}
+
+.introduction__text p {
+  font-size: 0.97rem;
+  line-height: 1.85;
   color: var(--clr-fg);
+  margin-bottom: 1em;
 }
 
-/* Responsive layout for mobile and smaller screens */
-@media (max-width: 1022px) {
+.introduction__text p:last-child { margin-bottom: 0; }
+
+.introduction__text p:first-child {
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: var(--clr-fg-alt);
+}
+
+@media (max-width: 860px) {
   .introduction {
-    flex-direction: column;
-    margin-top: 2em;
-  }
-
-  .introduction_logocontainer {
-    margin-bottom: 2em;
-  }
-
-  .introduction_logocontainer > img {
-    width: 150px;
-    height: 150px;
-  }
-
-  .introduction_datacontainer {
-    text-align: center;
-    padding: 0 10%;
-  }
-
-  .introduction_datacontainer p {
+    grid-template-columns: 1fr;
+    gap: 2.5em;
     text-align: center;
   }
+  .introduction__photo-ring { width: 180px; height: 180px; }
+  .introduction__photo-wrap { margin-bottom: 0; }
+  .introduction__text { padding: 1.5em; }
 }
