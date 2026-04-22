@@ -12,9 +12,6 @@ export const Header = () => {
       <header className={"header center " + themename}>
         <h3>
           <a href="#home" className="link">
-            <span>
-              {/* <img src={Image} alt="logo" /> */}
-            </span>
             Bhavesh Purohit
           </a>
         </h3>
