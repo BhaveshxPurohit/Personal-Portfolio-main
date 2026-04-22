@@ -68,9 +68,8 @@
     align-items: center;
     gap: 0;
     padding: 1em 0 1.5em;
-    background: var(--clr-bg-alt);
-    border-bottom: 1px solid var(--clr-border);
-    backdrop-filter: blur(20px);
+    background: transparent;
+    border-bottom: none;
     z-index: 99;
   }
 

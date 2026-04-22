@@ -30,8 +30,8 @@
   width: 52px;
   height: 52px;
   border-radius: 50%;
-  border: 1px solid var(--clr-border);
-  background: var(--clr-glass);
+  border: none;
+  background: transparent;
   display: flex;
   align-items: center;
   justify-content: center;

@@ -46,9 +46,8 @@
   gap: 0.5em;
   padding: 1.2em 0.5em;
   border-radius: 12px;
-  border: 1px solid var(--clr-border);
-  background: var(--clr-glass);
-  backdrop-filter: blur(8px);
+  border: none;
+  background: transparent;
   cursor: default;
   transition: all 0.25s ease;
 }
